@@ -1,7 +1,10 @@
 ## Todo :
 
 - [x] create worldweatheronline account
-- [ ] create function to get all data
+- [x] create function to get all data for one month
+- [ ] create function that gets all data that we need (same as opendata Paris)
+- [ ] convert hours to datetime and date to date
+- [ ] convert other columns to innt or float
 
 ## Data available from the weather API :
 
@@ -20,8 +23,9 @@
 - heat index (°C), dew point = température de rosée (°C)
 - wind chill (°C), speed (m/s), gust = rafale (km/h), direction (°)
 - weather code (synthetized data)
-- precipitation (mm), humidity (%), visibility (km), pressure (mb), cloudcover (%)
+- precipitation (mm), humidity (%), visibility (km), pressure (mb), cloudcover (%), UV index
 
 ## Notes :
 
 - min, max and avg daily temperature might be redondant with the hourly data
+- same for UV index
