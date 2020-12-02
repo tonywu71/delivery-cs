@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 import requests
+import calendar
+import datetime
+from dateutil.parser import parse
+import pandas as pd
 
 
 WWO_API_KEY = "e0703fd9cbc64e2caa1165738200212"  # world weather online
@@ -26,9 +30,31 @@ def get_weather_data(start_date, end_date=None, location="paris,france", data_fo
         params_dict['enddate'] = end_date
 
     r = requests.get(WWO_BASE_URL, params=params_dict)
+    json_data = r.json()
 
-    return r.json()['data']['weather']
+    if 'error' in json_data:
+        print(json_data['error'][0]['msg'])
+        return None
+    return json_data['data']['weather']
+
+
+def get_month_weather_data(month, year):
+    start_date = "-".join([year, month, "1"])
+    last_month_day = calendar.monthrange(int(year), int(month))[1]
+    end_date = "-".join([year, month, str(last_month_day)])
+
+    # verify if the dates are available
+    today = datetime.date.today()
+    if parse(start_date).date() <= today <= parse(end_date).date():
+        end_date = today.strftime(r"%Y-%m-%d")
+        print(end_date)
+    elif today < parse(start_date).date():
+        return None
+
+    month_data = get_weather_data(start_date, end_date)
+    return pd.DataFrame(month_data)
 
 
 # test
-print(len(get_weather_data('2020-12-2')[0]['hourly']))
+# print(len(get_weather_data('2020-12-2')[0]['hourly']))
+print(get_month_weather_data("12", "2020").columns)
