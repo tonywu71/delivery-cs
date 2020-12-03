@@ -24,7 +24,8 @@ import pandas as pd
 
 
 def export_datasets(sep_date_str):
-    """Exports train and test sets in ./data folder as a pickle file.
+    """Exports train and test sets in ./data folder as a pickle file. The data is in
+    chronological order and split using the given separation date.
     Use pd.read_pickle to retrieve the data.
 
     Args:
