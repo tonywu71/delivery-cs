@@ -67,21 +67,72 @@ def convert_data_dict_to_df(data):
                             for day in range(len(astronomy_data))] for feature in astro_columns}
     for feature in astro_dict:
         per_day_df[feature] = astro_dict[feature]
-    # create a separate df for hour data
+
+    # create another dataframe for the hourly data
     hourly_data = per_day_df.pop('hourly')
     hourly_data_features = ['time', 'tempC', 'windspeedKmph', 'winddirDegree', 'weatherCode', 'precipMM', 'humidity',
                             'visibility', 'pressure', 'cloudcover', 'HeatIndexC', 'DewPointC', 'WindChillC', 'WindGustKmph', 'FeelsLikeC', 'uvIndex']
     hourly_data_dict = {feature: [hourly_data[day][hour][feature] for day in range(len(
         hourly_data)) for hour in range(len(hourly_data[day]))] for feature in hourly_data_features}
-    
-
     per_hour_df = pd.DataFrame(hourly_data_dict)
-    print(per_day_df.dtypes)
-    print(per_hour_df.dtypes)
+
     return per_day_df, per_hour_df
+
+
+def convert_df_dtypes(df, dtypes):
+    """ returns the dataframe with the correct datatypes """
+    return df.astype(dtypes)
+
+
+def get_correct_datatypes(per_day_df, per_hour_df):
+
+    # add date to hour columns
+    for hour_feature in ('sunrise', 'sunset', 'moonrise', 'moonset'):
+        per_day_df[hour_feature] = per_day_df[date] + \
+            " " + per_day_df[hour_feature]
+
+    # convert each column to the right datatype
+    per_day_dtypes = {}
+    for int_feature in ('maxtempC', 'mintempC', 'avgtempC', 'uvIndex', 'moon_illumination'):
+        per_day_dtypes[int_feature] = "int64"  # could be 32b
+    for float_feature in ('totalSnow_cm', 'sunHour'):
+        per_day_dtypes[float_feature] = "float64"  # same
+    for datetime_feature in ('date', 'sunrise', 'sunset', 'moonrise', 'moonset'):
+        per_day_dtypes[datetime_feature] = 'datetime64'
+    corrected_per_day_df = convert_df_dtypes(per_day_df, per_day_dtypes)
+
+    # add date to time column
+    datetime_data = []
+    time_data = per_hour_df.pop("time")
+    for date in per_day_df["date"]:
+        for hour in range(24):
+            datetime_string = date + "-" + str(hour) + ":00"
+            datetime_data.append(datetime_string)
+    per_hour_df["datetime"] = datetime_data
+
+    # convert each column to the right datatype
+    per_hour_dtypes = {}
+    for int_feature in ('tempC', 'windspeedKmph', 'winddirDegree', 'weatherCode', 'humidity', 'visibility', 'pressure', 'cloudcover', 'HeatIndexC', 'DewPointC', 'WindChillC', 'WindGustKmph', 'FeelsLikeC', 'uvIndex'):
+        per_hour_dtypes[int_feature] = "int64"
+    per_hour_dtypes['precipMM'] = "float64"
+    per_hour_dtypes['datetime'] = "datetime64"
+    corrected_per_hour_df = convert_df_dtypes(per_hour_df, per_hour_dtypes)
+
+    return corrected_per_day_df, corrected_per_hour_df
+
+
+def save_df_to_pickle(df, file_name):
+    df.to_pickle(file_name)
+
+
+def load_df(file_name):
+    df = pd.read_pickle(file_name)
+    return df
 
 
 # test
 # print(len(get_weather_data('2020-12-2')[0]['hourly']))
 # print(get_month_weather_data("12", "2020").columns)
-print(convert_data_dict_to_df(get_month_weather_data("12", "2020")))
+per_day_df, per_hour_df = convert_data_dict_to_df(
+    get_month_weather_data("12", "2020"))
+# per_hour_df = pd.read_pickle("test.pkl")
