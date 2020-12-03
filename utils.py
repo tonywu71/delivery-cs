@@ -4,6 +4,7 @@ import calendar
 import datetime
 from dateutil.parser import parse
 import pandas as pd
+from tqdm import tqdm
 
 
 WWO_API_KEY = "e0703fd9cbc64e2caa1165738200212"  # world weather online
@@ -15,7 +16,7 @@ WWO_BASE_URL = "https://api.worldweatheronline.com/premium/v1/past-weather.ashx"
 
 def get_weather_data(start_date, end_date=None, location="paris,france", data_format="json", forecast_time_interval="1", key=WWO_API_KEY):
     """
-        function to get weather data; limit : 500 calls / day
+        function to get weather data; limit : 500 calls / day; first data : 1st jan 2009
         parameters :
             start_date, end_date : "yyyy-mm-dd"
             location : city or lattitude and longitude : "XX.XXX,XX.XXX"; when using "paris", the location is 48.867, 2.333
@@ -54,7 +55,7 @@ def get_month_weather_data(month, year):
     return month_data
 
 
-def convert_data_dict_to_df(data):
+def convert_dict_to_df(data):
     """ this return two dataframe : one with the data that changes each day, and one with the data that changes each hour """
     per_day_df = pd.DataFrame(data)
     # delete the data in farenheit (redondant as we have it in degree)
@@ -79,16 +80,12 @@ def convert_data_dict_to_df(data):
     return per_day_df, per_hour_df
 
 
-def convert_df_dtypes(df, dtypes):
-    """ returns the dataframe with the correct datatypes """
-    return df.astype(dtypes)
-
-
-def get_correct_datatypes(per_day_df, per_hour_df):
+def convert_to_correct_datatypes(per_day_df, per_hour_df):
+    """ returns both dataframe with corrected datatypes """
 
     # add date to hour columns
     for hour_feature in ('sunrise', 'sunset', 'moonrise', 'moonset'):
-        per_day_df[hour_feature] = per_day_df[date] + \
+        per_day_df[hour_feature] = per_day_df["date"] + \
             " " + per_day_df[hour_feature]
 
     # convert each column to the right datatype
@@ -99,7 +96,7 @@ def get_correct_datatypes(per_day_df, per_hour_df):
         per_day_dtypes[float_feature] = "float64"  # same
     for datetime_feature in ('date', 'sunrise', 'sunset', 'moonrise', 'moonset'):
         per_day_dtypes[datetime_feature] = 'datetime64'
-    corrected_per_day_df = convert_df_dtypes(per_day_df, per_day_dtypes)
+    corrected_per_day_df = per_day_df.astype(per_day_dtypes)
 
     # add date to time column
     datetime_data = []
@@ -116,7 +113,7 @@ def get_correct_datatypes(per_day_df, per_hour_df):
         per_hour_dtypes[int_feature] = "int64"
     per_hour_dtypes['precipMM'] = "float64"
     per_hour_dtypes['datetime'] = "datetime64"
-    corrected_per_hour_df = convert_df_dtypes(per_hour_df, per_hour_dtypes)
+    corrected_per_hour_df = per_hour_df.astype(per_hour_dtypes)
 
     return corrected_per_day_df, corrected_per_hour_df
 
@@ -130,9 +127,41 @@ def load_df(file_name):
     return df
 
 
+def get_all_data_available(save=True):
+    all_daily_df = []
+    all_hourly_df = []
+    # for each year since 2009
+    for year in tqdm(range(2009, 2020+1), unit="year"):
+        # for each month (jan -> dec)
+        for month in range(1, 12+1):
+            # get all the data of this month
+            raw_data = get_month_weather_data(str(month), str(year))
+            if raw_data:
+                # convert it to dataframe
+                daily_df, hourly_df = convert_dict_to_df(raw_data)
+                # convert the dtypes
+                c_daily_df, c_hourly_df = convert_to_correct_datatypes(
+                    daily_df, hourly_df)
+                all_daily_df.append(c_daily_df)
+                all_hourly_df.append(c_hourly_df)
+    # group all data in two df
+    complete_daily_df = pd.concat(all_daily_df)
+    complete_hourly_df = pd.concat(all_hourly_df)
+
+    if save:
+        save_df_to_pickle(complete_daily_df,
+                          "daily_weather_data_from_2009_to_present.pkl")
+        save_df_to_pickle(complete_hourly_df,
+                          "hourly_weather_data_from_2009_to_present.pkl")
+
+    return complete_daily_df, complete_hourly_df
+
+
 # test
 # print(len(get_weather_data('2020-12-2')[0]['hourly']))
 # print(get_month_weather_data("12", "2020").columns)
-per_day_df, per_hour_df = convert_data_dict_to_df(
-    get_month_weather_data("12", "2020"))
+# per_day_df, per_hour_df = convert_dict_to_df(
+#     get_month_weather_data("12", "2020"))
 # per_hour_df = pd.read_pickle("test.pkl")
+# c_d, c_h = convert_to_correct_datatypes(per_day_df, per_hour_df)
+get_all_data_available()
