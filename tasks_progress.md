@@ -12,7 +12,7 @@
 
 ### Daily data (one line per day)
 
-- sun/moon rise and set hours, moon phase, moon illumination
+- sun/~~moon~~ rise and set hours, moon phase, moon illumination
 - min, max & avg temperatures of the day (°C)
 - UV index
 - snowfall amount (cm)
