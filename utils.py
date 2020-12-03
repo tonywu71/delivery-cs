@@ -165,4 +165,5 @@ def get_all_data_available(save=True):
     return complete_daily_df, complete_hourly_df
 
 
-get_all_data_available()
+if __name__ == "__main__":
+    get_all_data_available()
