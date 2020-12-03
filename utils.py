@@ -165,5 +165,29 @@ def get_all_data_available(save=True):
     return complete_daily_df, complete_hourly_df
 
 
+def combine_both_df(daily_df, hourly_df, save=True):
+    """ 
+        returns one dataframe containing info from both df
+        the informations of daily_df will be duplicated 24 times to have it on each hourly line
+    """
+    # duplicate each line 24 times
+    daily_df_24 = daily_df.append([daily_df]*23, ignore_index=True)
+    # sort the lines by date
+    daily_df_24.sort_values("date", inplace=True)
+    # rewrite the indexes
+    daily_df_24.reset_index(inplace=True)
+    hourly_df.reset_index(inplace=True)
+    # combine both
+    combined_df = pd.concat([hourly_df, daily_df_24], axis=1)
+    # drop useless columns
+    combined_df.drop(["index", "date"], inplace=True, axis="columns")
+
+    if save:
+        save_df_to_pickle(combined_df,
+                          "combined_weather_data_from_2009_to_present.pkl")
+    return combined_df
+
+
 if __name__ == "__main__":
-    get_all_data_available()
+    complete_daily_df, complete_hourly_df = get_all_data_available(save=False)
+    d_df = combine_both_df(complete_daily_df, complete_hourly_df, save=True)
