@@ -17,7 +17,10 @@
 - Etat arc : ❓ 
 - filename : Nom du fichier ayant servi à récupérer la ligne
 - Date : `datetime.date` avec le jour uniquement
-- Jour de la semaine : Entier entre 0 et 6 (0 pour lundi et 6 pour dimanche)
+- Jour de la semaine_{idx} avec idx de 0 à 6 :
+  - idx=0 → Lundi
+  - ...
+  - idx=6 → Dimanche
 - Etat du confinement : 
   - 0 → période avant le 1er confinement
   - 1 → pas de confinement mais avec expérience du 1er confinement et mesures d'hygiènes renforcées
@@ -28,6 +31,35 @@
 - Vacances scolaires : Booléen avec True si pendant les vacances scolaires
 - Date des prochaines vacances scolaires : `Timestamp` avec jour et heure du début des prochaines vacances scolaires
 - Temps avant les prochaines vacances scolaires : `Timedelta` donnant le nombre de jours restants avant les prochaines vacances scolaires.
+- tempC : Temperature in degrees Celsius
+- Données météorologiques :
+  - Par heure :
+    - windspeedKmph : Wind speed in kilometers per hour
+    - winddirDegree : Wind direction in degrees
+    - weatherCode : Weather condition code
+    - precipMM : Precipitation in millimeters
+    - humidity : Humidity in percentage (%)
+    - visibility : Visibility in kilometers
+    - pressure : Atmospheric pressure in millibars (mb)
+    - cloudcover : Cloud cover amount in percentage (%)
+    - HeatIndexC : Heat index temperature in degrees Celsius
+    - DewPointC : Dew point temperature in degrees Celsius
+    -  WindChillC : Wind chill temperature in degrees Celsius
+    - WindGustKmph : Wind gust in kilometers per hour
+    - FeelsLikeC : Feels like temperature in degrees Celsius
+  - Par jour :
+    - uvIndex : UV Index
+    - maxtempC : Maximum temperature of the day in degree Celsius
+    - mintempC : Minimum temperature of the day in degree Celsius
+    - avgtempC : Average temperature of the day  in degree Celsius
+    - totalSnow_cm : Total snowfall amount in cm
+    - sunHour : Total sun hour
+    - uvIndex : UV Index
+    - sunrise : Local sunrise time
+    - sunset : Local sunset time
+    - moon_phase : Moon phase
+    - moon_illumination : Moon illumination
+- Journée : True si le soleil est levé, False s'il fait nuit
 
 
 
