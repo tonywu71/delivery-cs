@@ -143,7 +143,7 @@ def export_datasets(sep_date_str):
     dic_noeuds = {
         'champs-elysees.csv': ('Av_Champs_Elysees-Washington', 'Av_Champs_Elysees-Berri'),
         'convention.csv': ('Lecourbe-Convention', 'Convention-Blomet'),
-        'Sts.csv': ('Sts_Peres-Voltaire', 'Sts_Peres-Universite')
+        'sts.csv': ('Sts_Peres-Voltaire', 'Sts_Peres-Universite')
     }
 
 
