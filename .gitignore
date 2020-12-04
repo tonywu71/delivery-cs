@@ -1,6 +1,7 @@
 # custom
 *.pkl
 */*.pkl/*
+data/
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
