@@ -23,13 +23,14 @@ import pandas as pd
 # import seaborn as sns
 
 
-def export_datasets(sep_date_str):
+def export_datasets(sep_date_str, export=True):
     """Exports train and test sets in ./data folder as a pickle file. The data is in
     chronological order and split using the given separation date.
     Use pd.read_pickle to retrieve the data.
 
     Args:
         sep_date_str (string): String with default format for pd.Timestamp function
+        export (bool): Set to False if you don't want to write data in files.
     """
     # Les données sont enregistrées dans 3 fichiers CSV différents. Elles portent le nom suivant :
 
@@ -637,11 +638,81 @@ def export_datasets(sep_date_str):
     # In[60]:
 
 
-    print(f'% train: {len(df_train) / len(df)}')
-    print(f'% test: {len(df_test) / len(df)}')
-
     # In[61]:
-    df_train.to_pickle('data/df_train.pkl')
-    df_test.to_pickle('data/df_test.pkl')
+    if export:
+        print(f'% train: {len(df_train) / len(df)}')
+        print(f'% test: {len(df_test) / len(df)}')
 
-    return
+        df_train.to_pickle('data/df_train.pkl')
+        df_test.to_pickle('data/df_test.pkl')
+
+    return df_train, df_test
+
+def export_concat_datasets(sep_date_str, export=True):
+    """Same function that export_datasets except that now each row contains
+    the data for all streets.
+
+    Args:
+        sep_date_str (string): String with default format for pd.Timestamp function
+        export (bool): Set to False if you don't want to write data in files.
+    """
+
+    df_train, df_test = export_datasets(sep_date_str, export=False)
+    df = pd.concat([df_train, df_test], axis=0)
+
+    list_filenames = ['champs-elysees.csv', 'convention.csv', 'sts.csv']
+
+    l_df = [df[df['filename']==elt] for elt in list_filenames]
+
+    l_cols_original = ['Débit horaire', "Taux d'occupation", "Etat trafic", "Etat arc"]
+
+    for idx, (cur_df, filename) in enumerate(zip(l_df, list_filenames)): # we skip the first dataframe
+        l_cols_new = [filename[:-4] + '_' + elt for elt in l_cols_original]
+        
+        l_df[idx] = cur_df.rename(columns=dict(zip(l_cols_original, l_cols_new))).drop(columns=['Libelle'])
+    
+    def concat_reduce(df_1, df_2):
+        filename = df_2['filename'].iloc[0][:-4]
+        l_cols_original = ['Débit horaire', "Taux d'occupation", "Etat trafic", "Etat arc"]
+        l_cols = ['Date et heure de comptage'] + [filename + '_' + elt for elt in l_cols_original]
+        
+        return df_1.merge(df_2[l_cols], on='Date et heure de comptage')
+
+    df_concat = reduce(concat_reduce, l_df)
+    df_concat = df_concat.sort_values(by='Date et heure de comptage')
+
+    columns_new_order = [
+        'Date et heure de comptage', 'champs-elysees_Débit horaire',
+        "champs-elysees_Taux d'occupation", 'champs-elysees_Etat trafic',
+        'champs-elysees_Etat arc', 'convention_Débit horaire',
+        "convention_Taux d'occupation", 'convention_Etat trafic',
+        'convention_Etat arc', 'sts_Débit horaire', "sts_Taux d'occupation",
+        'sts_Etat trafic', 'sts_Etat arc', 'filename', 'Date',
+        'Jour de la semaine_0', 'Jour de la semaine_1', 'Jour de la semaine_2',
+        'Jour de la semaine_3', 'Jour de la semaine_4', 'Jour de la semaine_5',
+        'Jour de la semaine_6', 'Etat du confinement', 'Couvre-feu', 'Jour férié',
+        'Vacances scolaires', 'Date des prochaines vacances scolaires',
+        'Temps avant les prochaines vacances scolaires', 'tempC', 'windspeedKmph',
+        'winddirDegree', 'weatherCode', 'precipMM', 'humidity', 'visibility',
+        'pressure', 'cloudcover', 'HeatIndexC', 'DewPointC', 'WindChillC',
+        'WindGustKmph', 'FeelsLikeC', 'uvIndex', 'maxtempC', 'mintempC',
+        'avgtempC', 'totalSnow_cm', 'sunHour', 'uvIndex', 'sunrise', 'sunset',
+        'moon_phase', 'moon_illumination', 'Journée'
+    ]
+
+    df_concat = df_concat[columns_new_order]
+
+    sep_date = pd.Timestamp('2020/11/23')
+
+    df_concat_train = df_concat[df_concat['Date et heure de comptage'] < sep_date]
+    df_concat_test = df_concat[df_concat['Date et heure de comptage'] >= sep_date]
+
+
+    if export:
+        print(f'% train: {len(df_concat_train) / len(df_concat)}')
+        print(f'% test: {len(df_concat_test) / len(df_concat)}')
+
+        df_concat_train.to_pickle('data/df_concat_train.pkl')
+        df_concat_test.to_pickle('data/df_concat_test.pkl')
+
+    return df_train, df_test
