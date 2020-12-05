@@ -1,0 +1,921 @@
+description;population;start_date;end_date;location;zones;annee_scolaire
+Vacances de Printemps;;2019-04-13;2019-04-29;Besançon;Zone A;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Besançon;Zone A;2018-2019
+Pont de l'Ascension;;2020-05-20;2020-05-25;Besançon;Zone A;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Besançon;Zone A;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Besançon;Zone A;2020-2021
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Bordeaux;Zone A;2018-2019
+Vacances d'Été;;2020-07-04;2020-09-01;Bordeaux;Zone A;2019-2020
+Vacances d'Hiver;;2021-02-06;2021-02-22;Bordeaux;Zone A;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Bordeaux;Zone A;2020-2021
+Vacances d'Hiver;;2018-02-10;2018-02-26;Clermont-Ferrand;Zone A;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Clermont-Ferrand;Zone A;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Clermont-Ferrand;Zone A;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Clermont-Ferrand;Zone A;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Clermont-Ferrand;Zone A;2019-2020
+Vacances d'Été;;2021-07-05;;Clermont-Ferrand;Zone A;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Dijon;Zone A;2017-2018
+Vacances de Printemps;;2018-04-07;2018-04-23;Dijon;Zone A;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Dijon;Zone A;2017-2018
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Dijon;Zone A;2018-2019
+Vacances de Printemps;;2020-04-18;2020-05-04;Dijon;Zone A;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Dijon;Zone A;2019-2020
+Vacances de Printemps;;2021-04-10;2021-04-26;Dijon;Zone A;2020-2021
+Vacances de Noël;;2018-12-22;2019-01-07;Grenoble;Zone A;2018-2019
+Pont de l'Ascension;;2020-05-20;2020-05-25;Grenoble;Zone A;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Grenoble;Zone A;2019-2020
+Vacances de Printemps;;2021-04-10;2021-04-26;Grenoble;Zone A;2020-2021
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Limoges;Zone A;2019-2020
+Vacances de Noël;;2019-12-21;2020-01-06;Limoges;Zone A;2019-2020
+Vacances d'Hiver;;2020-02-22;2020-03-09;Limoges;Zone A;2019-2020
+Pont de l'Ascension;;2021-05-13;2021-05-17;Limoges;Zone A;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Lyon;Zone A;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Lyon;Zone A;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Lyon;Zone A;2018-2019
+Vacances d'Hiver;;2020-02-22;2020-03-09;Lyon;Zone A;2019-2020
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Poitiers;Zone A;2017-2018
+Pont de l'Ascension;;2020-05-20;2020-05-25;Poitiers;Zone A;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Poitiers;Zone A;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Aix-Marseille;Zone B;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Aix-Marseille;Zone B;2017-2018
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Aix-Marseille;Zone B;2018-2019
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Aix-Marseille;Zone B;2020-2021
+Vacances de Noël;;2020-12-19;2021-01-04;Aix-Marseille;Zone B;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Amiens;Zone B;2017-2018
+Vacances de Printemps;;2018-04-21;2018-05-07;Amiens;Zone B;2017-2018
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Amiens;Zone B;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Amiens;Zone B;2019-2020
+Vacances d'Hiver;;2020-02-15;2020-03-02;Amiens;Zone B;2019-2020
+Vacances de Printemps;;2021-04-24;2021-05-10;Amiens;Zone B;2020-2021
+Vacances de Printemps;;2018-04-21;2018-05-07;Caen;Zone B;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Caen;Zone B;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Caen;Zone B;2019-2020
+Vacances de Noël;;2019-12-21;2020-01-06;Caen;Zone B;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Normandie;Zone B;2020-2021
+Vacances d'Été;;2021-07-05;;Normandie;Zone B;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Lille;Zone B;2017-2018
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Lille;Zone B;2018-2019
+Vacances de Noël;;2020-12-19;2021-01-04;Lille;Zone B;2020-2021
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Nancy-Metz;Zone B;2018-2019
+Vacances d'Hiver;;2020-02-15;2020-03-02;Nancy-Metz;Zone B;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Nancy-Metz;Zone B;2020-2021
+Vacances de Noël;;2020-12-19;2021-01-04;Nancy-Metz;Zone B;2020-2021
+Vacances d'Hiver;;2021-02-20;2021-03-08;Nancy-Metz;Zone B;2020-2021
+Vacances de Printemps;;2021-04-24;2021-05-10;Nancy-Metz;Zone B;2020-2021
+Vacances de Printemps;;2019-04-06;2019-04-23;Nantes;Zone B;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Nantes;Zone B;2018-2019
+Pont de l'Ascension;;2020-05-20;2020-05-25;Nantes;Zone B;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Nantes;Zone B;2019-2020
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Nice;Zone B;2018-2019
+Vacances de Printemps;;2019-04-06;2019-04-23;Nice;Zone B;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Nice;Zone B;2018-2019
+Vacances d'Hiver;;2018-02-24;2018-03-12;Orléans-Tours;Zone B;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Orléans-Tours;Zone B;2017-2018
+Vacances d'Hiver;;2020-02-15;2020-03-02;Orléans-Tours;Zone B;2019-2020
+Vacances de Printemps;;2020-04-11;2020-04-27;Orléans-Tours;Zone B;2019-2020
+Vacances d'Hiver;;2021-02-20;2021-03-08;Orléans-Tours;Zone B;2020-2021
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Reims;Zone B;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Reims;Zone B;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Reims;Zone B;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Reims;Zone B;2019-2020
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Rennes;Zone B;2017-2018
+Pont de l'Ascension;;2019-05-29;2019-06-03;Rennes;Zone B;2018-2019
+Vacances de Printemps;;2020-04-11;2020-04-27;Rennes;Zone B;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Rennes;Zone B;2020-2021
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Rouen;Zone B;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Strasbourg;Zone B;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Strasbourg;Zone B;2018-2019
+Vacances de Noël;;2018-12-22;2019-01-07;Strasbourg;Zone B;2018-2019
+Vacances d'Hiver;;2019-02-09;2019-02-25;Strasbourg;Zone B;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Strasbourg;Zone B;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Strasbourg;Zone B;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Strasbourg;Zone B;2020-2021
+Vacances d'Hiver;;2018-02-17;2018-03-05;Créteil;Zone C;2017-2018
+Vacances de Printemps;;2018-04-14;2018-04-30;Créteil;Zone C;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Créteil;Zone C;2017-2018
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Créteil;Zone C;2018-2019
+Vacances d'Été;;2020-07-04;2020-09-01;Créteil;Zone C;2019-2020
+Vacances d'Hiver;;2021-02-13;2021-03-01;Créteil;Zone C;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Créteil;Zone C;2020-2021
+Vacances d'Hiver;;2018-02-17;2018-03-05;Montpellier;Zone C;2017-2018
+Pont de l'Ascension;;2019-05-29;2019-06-03;Montpellier;Zone C;2018-2019
+Vacances de Printemps;;2020-04-04;2020-04-20;Montpellier;Zone C;2019-2020
+Vacances de Printemps;;2021-04-17;2021-05-03;Montpellier;Zone C;2020-2021
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Paris;Zone C;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Paris;Zone C;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Paris;Zone C;2019-2020
+Vacances d'Hiver;;2020-02-08;2020-02-24;Paris;Zone C;2019-2020
+Vacances d'Hiver;;2018-02-17;2018-03-05;Toulouse;Zone C;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Toulouse;Zone C;2018-2019
+Vacances de Noël;;2018-12-22;2019-01-07;Toulouse;Zone C;2018-2019
+Vacances d'Été;;2020-07-04;2020-09-01;Toulouse;Zone C;2019-2020
+Vacances de Printemps;;2021-04-17;2021-05-03;Toulouse;Zone C;2020-2021
+Vacances de Noël;;2018-12-22;2019-01-07;Versailles;Zone C;2018-2019
+Vacances de Noël;;2009-12-21;2010-01-04;Corse;Corse;2009-2010
+Vacances d'Hiver;;2010-02-22;2010-03-08;Corse;Corse;2009-2010
+Vacances de la Toussaint;;2010-10-25;2010-11-02;Corse;Corse;2010-2011
+Vacances d'Été;Enseignants;2011-07-06;2011-09-09;Corse;Corse;2010-2011
+Vacances d'Été;Enseignants;2012-07-09;2012-09-10;Corse;Corse;2011-2012
+Vacances de Printemps;;2013-04-15;2013-04-29;Corse;Corse;2012-2013
+Vacances d'Été;Élèves;2013-07-08;2013-09-06;Corse;Corse;2012-2013
+Vacances de Printemps;;2014-04-28;2014-05-12;Corse;Corse;2013-2014
+Vacances de Printemps;;2015-04-26;2015-05-11;Corse;Corse;2014-2015
+Vacances de Noël;;2015-12-20;2016-01-04;Corse;Corse;2015-2016
+Vacances de Printemps;;2017-04-16;2017-05-02;Corse;Corse;2016-2017
+Vacances de Noël;;2017-12-25;2018-01-08;Corse;Corse;2017-2018
+Vacances de Printemps;;2018-04-23;2018-05-07;Corse;Corse;2017-2018
+Vacances de la Toussaint;;2018-10-24;2018-11-05;Corse;Corse;2018-2019
+Vacances d'Été;Élèves;2019-07-08;2019-09-03;Corse;Corse;2018-2019
+Vacances d'Hiver;;2020-02-15;2020-03-02;Corse;Corse;2019-2020
+Vacances de Printemps;;2020-04-18;2020-05-04;Corse;Corse;2019-2020
+Vacances d'Été;;2020-07-04;;Corse;Corse;2019-2020
+Vacances d'Été;;2018-07-06;2018-09-04;Guadeloupe;Guadeloupe;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Guadeloupe;Guadeloupe;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Guadeloupe;Guadeloupe;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Guyane;Guyane;2019-2020
+Vacances de Noël;;2019-12-21;2020-01-06;Guyane;Guyane;2019-2020
+Vacances de Carnaval;;2020-02-15;2020-03-02;Guyane;Guyane;2019-2020
+Vacances de Printemps;;2020-04-09;2020-04-27;Guyane;Guyane;2019-2020
+Vacances de Carnaval;;2021-02-13;2021-03-01;Guyane;Guyane;2020-2021
+Pont de l'Ascension;;2021-05-12;2021-05-17;Guyane;Guyane;2020-2021
+Vacances de Carnaval;;2019-02-23;2019-03-11;Martinique;Martinique;2018-2019
+Vacances de Printemps;;2020-04-04;2020-04-20;Martinique;Martinique;2019-2020
+Vacances de la Toussaint;;2018-10-06;2018-10-22;Mayotte;Mayotte;2018-2019
+Vacances de Carnaval;;2021-02-27;2021-03-15;Mayotte;Mayotte;2020-2021
+Vacances d'Été;;2021-07-07;;Mayotte;Mayotte;2020-2021
+Vacances 2ème période;;2018-06-09;2018-06-24;Nouvelle Calédonie;Nouvelle Calédonie;2018
+Vacances 4ème période;;2019-10-12;2019-10-27;Nouvelle Calédonie;Nouvelle Calédonie;2019
+Vacances 4ème période;;2021-10-09;2021-10-24;Nouvelle Calédonie;Nouvelle Calédonie;2021
+Vacances d'Été;Élèves;2021-12-18;2022-02-14;Nouvelle Calédonie;Nouvelle Calédonie;2021
+Vacances 3ème période;;2022-08-06;2022-08-21;Nouvelle Calédonie;Nouvelle Calédonie;2022
+Vacances 4ème période;;2022-10-08;2022-10-23;Nouvelle Calédonie;Nouvelle Calédonie;2022
+Vacances de Noël;;2017-12-16;2018-01-15;Polynésie;Polynésie;2017-2018
+Vacances de Février;;2018-02-17;2018-02-26;Polynésie;Polynésie;2017-2018
+Grandes Vacances;Enseignants du premier degré;2018-07-05;2018-08-13;Polynésie;Polynésie;2017-2018
+Grandes Vacances;Enseignants du premier degré;2019-07-04;2019-08-12;Polynésie;Polynésie;2018-2019
+Grandes Vacances;Élèves du premier degré;2019-07-04;2019-08-14;Polynésie;Polynésie;2018-2019
+Grandes Vacances;Élèves du second degré;2019-07-06;2019-08-13;Polynésie;Polynésie;2018-2019
+Vacances de Septembre;;2019-09-14;2019-09-23;Polynésie;Polynésie;2019-2020
+Grandes Vacances;Élèves du second degré;2020-07-04;2020-08-11;Polynésie;Polynésie;2019-2020
+Grandes Vacances;Enseignants des lycées;2021-06-26;2021-08-09;Polynésie;Polynésie;2020-2021
+Grandes Vacances;Enseignants des collèges;2021-07-03;2021-08-09;Polynésie;Polynésie;2020-2021
+Vacances de Noël;;2021-12-11;2022-01-10;Polynésie;Polynésie;2021-2022
+Grandes Vacances;Enseignants des lycées;2022-06-25;2022-08-08;Polynésie;Polynésie;2021-2022
+Grandes Vacances;Élèves des lycées;2022-06-25;2022-08-09;Polynésie;Polynésie;2021-2022
+Grandes Vacances;Enseignants des collèges;2022-07-02;2022-08-08;Polynésie;Polynésie;2021-2022
+Grandes Vacances;Élèves des collèges;2022-07-02;2022-08-09;Polynésie;Polynésie;2021-2022
+Grandes Vacances;Lycées;2023-06-24;;Polynésie;Polynésie;2022-2023
+Vacances après 3ème période;;2018-03-10;2018-03-26;Réunion;Réunion;2017-2018
+Vacances après 4ème période;;2018-05-05;2018-05-17;Réunion;Réunion;2017-2018
+Vacances après 1ère période;;2018-10-13;2018-10-29;Réunion;Réunion;2018-2019
+Vacances après 3ème période;;2019-03-09;2019-03-25;Réunion;Réunion;2018-2019
+Vacances d'Été austral;;2019-12-19;2020-01-27;Réunion;Réunion;2019-2020
+Vacances d'Hiver austral;Élèves;2020-07-04;2020-08-17;Réunion;Réunion;2019-2020
+Vacances d'Hiver austral;;2021-07-07;2021-08-16;Réunion;Réunion;2020-2021
+Vacances d'Été;Élèves;2019-07-03;2019-09-05;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2018-2019
+Vacances de Noël;;2019-12-20;2020-01-06;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2019-2020
+Vacances 1ère période;;2018-03-31;2018-04-16;Wallis et Futuna;Wallis et Futuna;2018
+Vacances 4ème période;;2020-10-10;2020-10-26;Wallis et Futuna;Wallis et Futuna;2020
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Besançon;Zone A;2017-2018
+Vacances de Noël;;2017-12-23;2018-01-08;Besançon;Zone A;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Besançon;Zone A;2017-2018
+Pont de l'Ascension;;2019-05-29;2019-06-03;Besançon;Zone A;2018-2019
+Vacances d'Hiver;;2021-02-06;2021-02-22;Besançon;Zone A;2020-2021
+Vacances d'Hiver;;2019-02-16;2019-03-04;Bordeaux;Zone A;2018-2019
+Vacances de Printemps;;2019-04-13;2019-04-29;Bordeaux;Zone A;2018-2019
+Vacances d'Hiver;;2020-02-22;2020-03-09;Bordeaux;Zone A;2019-2020
+Vacances de Noël;;2017-12-23;2018-01-08;Clermont-Ferrand;Zone A;2017-2018
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Clermont-Ferrand;Zone A;2018-2019
+Vacances d'Hiver;;2021-02-06;2021-02-22;Clermont-Ferrand;Zone A;2020-2021
+Vacances de Printemps;;2021-04-10;2021-04-26;Clermont-Ferrand;Zone A;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Clermont-Ferrand;Zone A;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Dijon;Zone A;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Dijon;Zone A;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Dijon;Zone A;2018-2019
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Dijon;Zone A;2020-2021
+Vacances de Printemps;;2018-04-07;2018-04-23;Grenoble;Zone A;2017-2018
+Vacances d'Hiver;;2019-02-16;2019-03-04;Grenoble;Zone A;2018-2019
+Vacances d'Hiver;;2020-02-22;2020-03-09;Grenoble;Zone A;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Grenoble;Zone A;2020-2021
+Vacances d'Été;;2021-07-05;;Grenoble;Zone A;2020-2021
+Vacances d'Hiver;;2018-02-10;2018-02-26;Limoges;Zone A;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Limoges;Zone A;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Limoges;Zone A;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Limoges;Zone A;2018-2019
+Vacances de Noël;;2020-12-19;2021-01-04;Limoges;Zone A;2020-2021
+Vacances d'Hiver;;2021-02-06;2021-02-22;Limoges;Zone A;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Lyon;Zone A;2017-2018
+Vacances de Printemps;;2018-04-07;2018-04-23;Lyon;Zone A;2017-2018
+Vacances de Noël;;2019-12-21;2020-01-06;Lyon;Zone A;2019-2020
+Vacances d'Hiver;;2021-02-06;2021-02-22;Lyon;Zone A;2020-2021
+Vacances de Printemps;;2021-04-10;2021-04-26;Lyon;Zone A;2020-2021
+Vacances d'Été;;2021-07-05;;Lyon;Zone A;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Poitiers;Zone A;2017-2018
+Pont de l'Ascension;;2019-05-29;2019-06-03;Poitiers;Zone A;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Poitiers;Zone A;2019-2020
+Pont de l'Ascension;;2021-05-13;2021-05-17;Poitiers;Zone A;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Aix-Marseille;Zone B;2017-2018
+Vacances de Printemps;;2018-04-21;2018-05-07;Aix-Marseille;Zone B;2017-2018
+Vacances de Printemps;;2019-04-06;2019-04-23;Aix-Marseille;Zone B;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Aix-Marseille;Zone B;2019-2020
+Vacances de Printemps;;2020-04-11;2020-04-27;Aix-Marseille;Zone B;2019-2020
+Vacances de Printemps;;2021-04-24;2021-05-10;Aix-Marseille;Zone B;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Aix-Marseille;Zone B;2020-2021
+Vacances d'Hiver;;2018-02-24;2018-03-12;Amiens;Zone B;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Caen;Zone B;2018-2019
+Vacances d'Hiver;;2019-02-09;2019-02-25;Caen;Zone B;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Caen;Zone B;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Caen;Zone B;2018-2019
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Normandie;Zone B;2020-2021
+Vacances d'Hiver;;2018-02-24;2018-03-12;Lille;Zone B;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Lille;Zone B;2017-2018
+Vacances d'Hiver;;2019-02-09;2019-02-25;Lille;Zone B;2018-2019
+Vacances d'Hiver;;2021-02-20;2021-03-08;Lille;Zone B;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Lille;Zone B;2020-2021
+Vacances d'Été;;2021-07-05;;Lille;Zone B;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Nancy-Metz;Zone B;2017-2018
+Vacances d'Hiver;;2018-02-24;2018-03-12;Nancy-Metz;Zone B;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Nancy-Metz;Zone B;2018-2019
+Vacances d'Hiver;;2019-02-09;2019-02-25;Nancy-Metz;Zone B;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Nancy-Metz;Zone B;2018-2019
+Pont de l'Ascension;;2020-05-20;2020-05-25;Nancy-Metz;Zone B;2019-2020
+Vacances d'Été;;2021-07-05;;Nancy-Metz;Zone B;2020-2021
+Vacances d'Hiver;;2018-02-24;2018-03-12;Nantes;Zone B;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Nantes;Zone B;2018-2019
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Nice;Zone B;2017-2018
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Nice;Zone B;2018-2019
+Vacances d'Été;;2021-07-05;;Nice;Zone B;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Orléans-Tours;Zone B;2017-2018
+Vacances de Printemps;;2018-04-21;2018-05-07;Orléans-Tours;Zone B;2017-2018
+Vacances d'Hiver;;2019-02-09;2019-02-25;Orléans-Tours;Zone B;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Orléans-Tours;Zone B;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Orléans-Tours;Zone B;2018-2019
+Vacances de Noël;;2020-12-19;2021-01-04;Orléans-Tours;Zone B;2020-2021
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Reims;Zone B;2018-2019
+Vacances d'Hiver;;2019-02-09;2019-02-25;Reims;Zone B;2018-2019
+Vacances d'Hiver;;2020-02-15;2020-03-02;Reims;Zone B;2019-2020
+Pont de l'Ascension;;2021-05-13;2021-05-17;Reims;Zone B;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Rennes;Zone B;2017-2018
+Vacances de Noël;;2017-12-23;2018-01-08;Rennes;Zone B;2017-2018
+Vacances d'Hiver;;2018-02-24;2018-03-12;Rennes;Zone B;2017-2018
+Vacances de Printemps;;2018-04-21;2018-05-07;Rennes;Zone B;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Rennes;Zone B;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Rennes;Zone B;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Rennes;Zone B;2018-2019
+Pont de l'Ascension;;2020-05-20;2020-05-25;Rennes;Zone B;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Rennes;Zone B;2019-2020
+Vacances d'Hiver;;2018-02-24;2018-03-12;Rouen;Zone B;2017-2018
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Rouen;Zone B;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Rouen;Zone B;2019-2020
+Vacances de Printemps;;2018-04-21;2018-05-07;Strasbourg;Zone B;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Strasbourg;Zone B;2017-2018
+Vacances de Printemps;;2019-04-06;2019-04-23;Strasbourg;Zone B;2018-2019
+Vacances d'Été;;2020-07-04;2020-09-01;Strasbourg;Zone B;2019-2020
+Vacances de Noël;;2017-12-23;2018-01-08;Créteil;Zone C;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Créteil;Zone C;2018-2019
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Montpellier;Zone C;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Montpellier;Zone C;2018-2019
+Vacances de Printemps;;2019-04-20;2019-05-06;Montpellier;Zone C;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Montpellier;Zone C;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Montpellier;Zone C;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Montpellier;Zone C;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Paris;Zone C;2017-2018
+Vacances de Printemps;;2019-04-20;2019-05-06;Paris;Zone C;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Paris;Zone C;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Paris;Zone C;2018-2019
+Vacances d'Été;;2020-07-04;2020-09-01;Paris;Zone C;2019-2020
+Vacances d'Été;;2021-07-05;;Paris;Zone C;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Toulouse;Zone C;2017-2018
+Vacances de Printemps;;2019-04-20;2019-05-06;Toulouse;Zone C;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Toulouse;Zone C;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Toulouse;Zone C;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Toulouse;Zone C;2019-2020
+Vacances d'Hiver;;2021-02-13;2021-03-01;Toulouse;Zone C;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Toulouse;Zone C;2020-2021
+Vacances d'Hiver;;2018-02-17;2018-03-05;Versailles;Zone C;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Versailles;Zone C;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Versailles;Zone C;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Versailles;Zone C;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Versailles;Zone C;2020-2021
+Vacances de Printemps;;2021-04-17;2021-05-03;Versailles;Zone C;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Versailles;Zone C;2020-2021
+Vacances d'Été;;2011-07-06;2011-09-08;Corse;Corse;2010-2011
+Vacances de la Toussaint;;2011-10-24;2011-11-02;Corse;Corse;2011-2012
+Vacances de Noël;;2011-12-19;2012-01-03;Corse;Corse;2011-2012
+Vacances de la Toussaint;;2012-10-29;2012-11-12;Corse;Corse;2012-2013
+Vacances d'Été;Enseignants;2014-07-10;2014-09-03;Corse;Corse;2013-2014
+Vacances de la Toussaint;;2014-10-19;2014-11-03;Corse;Corse;2014-2015
+Vacances d'Été;Enseignants;2015-07-09;2015-09-02;Corse;Corse;2014-2015
+Vacances d'Été;Élèves;2015-07-09;2015-09-03;Corse;Corse;2014-2015
+Vacances de la Toussaint;;2015-10-18;2015-11-02;Corse;Corse;2015-2016
+Vacances d'Hiver;;2016-02-21;2016-03-07;Corse;Corse;2015-2016
+Vacances d'Été;Enseignants;2016-07-07;2016-09-02;Corse;Corse;2015-2016
+Vacances d'Hiver;;2017-02-19;2017-03-06;Corse;Corse;2016-2017
+Vacances de Noël;;2018-12-24;2019-01-07;Corse;Corse;2018-2019
+Vacances de Printemps;;2019-04-22;2019-05-06;Corse;Corse;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Corse;Corse;2019-2020
+Vacances de Noël;;2019-12-21;2020-01-06;Corse;Corse;2019-2020
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Guadeloupe;Guadeloupe;2019-2020
+Mi-carême;Guadeloupe & Saint-Martin;2020-03-19;2020-03-19;Guadeloupe;Guadeloupe;2019-2020
+Abolition de l’esclavage;Saint-Martin;2020-05-27;2020-05-28;Guadeloupe;Guadeloupe;2019-2020
+Pont de l'Ascension;;2019-05-31;2019-06-03;Guyane;Guyane;2018-2019
+Vacances d'Été;Enseignants;2019-07-08;2019-08-30;Guyane;Guyane;2018-2019
+Vacances de la Toussaint;;2020-10-24;2020-11-09;Guyane;Guyane;2020-2021
+Vacances de Printemps;;2021-04-01;2021-04-19;Guyane;Guyane;2020-2021
+Pont de l'Ascension;;2019-05-29;2019-06-03;Martinique;Martinique;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Martinique;Martinique;2019-2020
+Vacances de la Toussaint;;2017-10-07;2017-10-23;Mayotte;Mayotte;2017-2018
+Vacances de Noël;;2018-12-08;2019-01-07;Mayotte;Mayotte;2018-2019
+Vacances de Carnaval;;2019-02-23;2019-03-11;Mayotte;Mayotte;2018-2019
+Vacances de Noël;;2019-12-14;2020-01-13;Mayotte;Mayotte;2019-2020
+Pont;;2020-05-20;2020-05-25;Mayotte;Mayotte;2019-2020
+Vacances 3ème période;;2018-08-11;2018-08-26;Nouvelle Calédonie;Nouvelle Calédonie;2018
+Vacances 1ère période;;2019-04-06;2019-04-14;Nouvelle Calédonie;Nouvelle Calédonie;2019
+Vacances d'Été;Élèves;2019-12-14;2020-02-14;Nouvelle Calédonie;Nouvelle Calédonie;2019
+Vacances 1ère période;;2020-04-04;2020-04-19;Nouvelle Calédonie;Nouvelle Calédonie;2020
+Vacances 3ème période;;2020-08-08;2020-08-23;Nouvelle Calédonie;Nouvelle Calédonie;2020
+Vacances d'Été;Enseignants;2021-12-18;2022-02-11;Nouvelle Calédonie;Nouvelle Calédonie;2021
+Grandes Vacances;Élèves du premier degré;2018-07-05;2018-08-16;Polynésie;Polynésie;2017-2018
+Vacances de Mai;;2019-05-25;2019-06-03;Polynésie;Polynésie;2018-2019
+Vacances de Septembre;;2020-09-12;2020-09-21;Polynésie;Polynésie;2020-2021
+Vacances de Novembre;;2020-10-24;2020-11-09;Polynésie;Polynésie;2020-2021
+Vacances de Pâques;;2021-04-03;2021-04-19;Polynésie;Polynésie;2020-2021
+Vacances de Mai;Premier degré et collèges;2021-05-22;2021-05-31;Polynésie;Polynésie;2020-2021
+Grandes Vacances;Enseignants du premier degré;2021-07-01;2021-08-09;Polynésie;Polynésie;2020-2021
+Grandes Vacances;Élèves du premier degré;2022-06-30;2022-08-10;Polynésie;Polynésie;2021-2022
+Vacances de Mai;Premier degré et collèges;2023-05-20;2023-05-30;Polynésie;Polynésie;2022-2023
+Grandes Vacances;Premier degré;2023-06-30;;Polynésie;Polynésie;2022-2023
+Vacances d'Été austral;;2017-12-23;2018-01-29;Réunion;Réunion;2017-2018
+Vacances d'Hiver austral;Enseignants;2018-07-07;2018-08-16;Réunion;Réunion;2017-2018
+Vacances d'Été austral;;2018-12-22;2019-01-28;Réunion;Réunion;2018-2019
+Vacances d'Hiver austral;Élèves;2019-07-06;2019-08-16;Réunion;Réunion;2018-2019
+Vacances après 1ère période;;2020-10-10;2020-10-26;Réunion;Réunion;2020-2021
+Vacances après 3ème période;;2021-03-06;2021-03-22;Réunion;Réunion;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2017-2018
+Vacances de la Toussaint;;2018-10-26;2018-11-05;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2018-2019
+Vacances de Noël;;2018-12-21;2019-01-07;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2018-2019
+Vacances d'Été;Enseignants;2019-07-03;2019-09-04;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2018-2019
+Vacances de Printemps;;2020-04-17;2020-05-04;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2019-2020
+Vacances 2ème période;;2018-06-09;2018-06-25;Wallis et Futuna;Wallis et Futuna;2018
+Vacances 3ème période;;2018-08-11;2018-08-27;Wallis et Futuna;Wallis et Futuna;2018
+Vacances 2ème période;;2019-06-08;2019-06-24;Wallis et Futuna;Wallis et Futuna;2019
+Vacances 3ème période;;2020-08-08;2020-08-24;Wallis et Futuna;Wallis et Futuna;2020
+Vacances d'Été;;2020-12-12;;Wallis et Futuna;Wallis et Futuna;2020
+Vacances d'Hiver;;2018-02-10;2018-02-26;Besançon;Zone A;2017-2018
+Vacances de Printemps;;2018-04-07;2018-04-23;Besançon;Zone A;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Besançon;Zone A;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Besançon;Zone A;2018-2019
+Vacances d'Hiver;;2019-02-16;2019-03-04;Besançon;Zone A;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Besançon;Zone A;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Besançon;Zone A;2019-2020
+Vacances de Printemps;;2020-04-18;2020-05-04;Besançon;Zone A;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Besançon;Zone A;2020-2021
+Vacances de Printemps;;2021-04-10;2021-04-26;Besançon;Zone A;2020-2021
+Vacances d'Été;;2021-07-05;;Besançon;Zone A;2020-2021
+Vacances d'Hiver;;2018-02-10;2018-02-26;Bordeaux;Zone A;2017-2018
+Vacances de Printemps;;2018-04-07;2018-04-23;Bordeaux;Zone A;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Bordeaux;Zone A;2017-2018
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Bordeaux;Zone A;2019-2020
+Vacances de Printemps;;2020-04-18;2020-05-04;Bordeaux;Zone A;2019-2020
+Vacances de Printemps;;2021-04-10;2021-04-26;Bordeaux;Zone A;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Clermont-Ferrand;Zone A;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Clermont-Ferrand;Zone A;2018-2019
+Vacances d'Hiver;;2019-02-16;2019-03-04;Clermont-Ferrand;Zone A;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Clermont-Ferrand;Zone A;2018-2019
+Pont de l'Ascension;;2020-05-20;2020-05-25;Clermont-Ferrand;Zone A;2019-2020
+Vacances de Printemps;;2019-04-13;2019-04-29;Dijon;Zone A;2018-2019
+Vacances d'Été;;2021-07-05;;Dijon;Zone A;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Grenoble;Zone A;2017-2018
+Vacances d'Hiver;;2018-02-10;2018-02-26;Grenoble;Zone A;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Grenoble;Zone A;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Grenoble;Zone A;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Grenoble;Zone A;2019-2020
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Limoges;Zone A;2017-2018
+Vacances de Noël;;2017-12-23;2018-01-08;Limoges;Zone A;2017-2018
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Limoges;Zone A;2018-2019
+Pont de l'Ascension;;2020-05-20;2020-05-25;Limoges;Zone A;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Lyon;Zone A;2019-2020
+Pont de l'Ascension;;2021-05-13;2021-05-17;Lyon;Zone A;2020-2021
+Vacances d'Hiver;;2019-02-16;2019-03-04;Poitiers;Zone A;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Poitiers;Zone A;2019-2020
+Vacances d'Hiver;;2021-02-06;2021-02-22;Poitiers;Zone A;2020-2021
+Vacances de Printemps;;2021-04-10;2021-04-26;Poitiers;Zone A;2020-2021
+Vacances d'Été;;2021-07-05;;Poitiers;Zone A;2020-2021
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Aix-Marseille;Zone B;2018-2019
+Vacances d'Été;;2020-07-04;2020-09-01;Aix-Marseille;Zone B;2019-2020
+Vacances d'Hiver;;2021-02-20;2021-03-08;Aix-Marseille;Zone B;2020-2021
+Vacances d'Été;;2021-07-05;;Aix-Marseille;Zone B;2020-2021
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Amiens;Zone B;2017-2018
+Vacances d'Hiver;;2019-02-09;2019-02-25;Amiens;Zone B;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Amiens;Zone B;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Amiens;Zone B;2019-2020
+Vacances de Printemps;;2020-04-11;2020-04-27;Amiens;Zone B;2019-2020
+Pont de l'Ascension;;2021-05-13;2021-05-17;Amiens;Zone B;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Caen;Zone B;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Caen;Zone B;2017-2018
+Vacances d'Hiver;;2020-02-15;2020-03-02;Normandie;Zone B;2019-2020
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Lille;Zone B;2018-2019
+Vacances de Printemps;;2019-04-06;2019-04-23;Lille;Zone B;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Lille;Zone B;2018-2019
+Pont de l'Ascension;;2020-05-20;2020-05-25;Lille;Zone B;2019-2020
+Vacances de Printemps;;2020-04-11;2020-04-27;Nancy-Metz;Zone B;2019-2020
+Vacances de Noël;;2018-12-22;2019-01-07;Nantes;Zone B;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Nantes;Zone B;2019-2020
+Vacances de Printemps;;2020-04-11;2020-04-27;Nantes;Zone B;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Nantes;Zone B;2020-2021
+Vacances d'Hiver;;2021-02-20;2021-03-08;Nantes;Zone B;2020-2021
+Vacances d'Été;;2021-07-05;;Nantes;Zone B;2020-2021
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Nice;Zone B;2017-2018
+Vacances de Noël;;2019-12-21;2020-01-06;Nice;Zone B;2019-2020
+Vacances d'Hiver;;2021-02-20;2021-03-08;Nice;Zone B;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Nice;Zone B;2020-2021
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Orléans-Tours;Zone B;2018-2019
+Vacances de Noël;;2018-12-22;2019-01-07;Orléans-Tours;Zone B;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Orléans-Tours;Zone B;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Orléans-Tours;Zone B;2019-2020
+Pont de l'Ascension;;2020-05-20;2020-05-25;Orléans-Tours;Zone B;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Orléans-Tours;Zone B;2020-2021
+Vacances de Printemps;;2021-04-24;2021-05-10;Orléans-Tours;Zone B;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Reims;Zone B;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Reims;Zone B;2017-2018
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Reims;Zone B;2019-2020
+Vacances d'Hiver;;2021-02-20;2021-03-08;Reims;Zone B;2020-2021
+Vacances de Printemps;;2021-04-24;2021-05-10;Reims;Zone B;2020-2021
+Vacances de Noël;;2018-12-22;2019-01-07;Rennes;Zone B;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Rennes;Zone B;2019-2020
+Vacances d'Hiver;;2020-02-15;2020-03-02;Rennes;Zone B;2019-2020
+Vacances d'Été;;2021-07-05;;Rennes;Zone B;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Rouen;Zone B;2017-2018
+Vacances de Noël;;2017-12-23;2018-01-08;Rouen;Zone B;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Rouen;Zone B;2018-2019
+Vacances de Printemps;;2019-04-06;2019-04-23;Rouen;Zone B;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Rouen;Zone B;2018-2019
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Strasbourg;Zone B;2017-2018
+Vacances de Noël;;2017-12-23;2018-01-08;Strasbourg;Zone B;2017-2018
+Vacances d'Hiver;;2020-02-15;2020-03-02;Strasbourg;Zone B;2019-2020
+Vacances de Printemps;;2020-04-11;2020-04-27;Strasbourg;Zone B;2019-2020
+Pont de l'Ascension;;2020-05-20;2020-05-25;Strasbourg;Zone B;2019-2020
+Vacances d'Été;;2021-07-05;;Strasbourg;Zone B;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Créteil;Zone C;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Créteil;Zone C;2017-2018
+Pont de l'Ascension;;2019-05-29;2019-06-03;Créteil;Zone C;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Créteil;Zone C;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Créteil;Zone C;2019-2020
+Vacances d'Hiver;;2020-02-08;2020-02-24;Créteil;Zone C;2019-2020
+Pont de l'Ascension;;2020-05-20;2020-05-25;Créteil;Zone C;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Créteil;Zone C;2020-2021
+Vacances de Printemps;;2021-04-17;2021-05-03;Créteil;Zone C;2020-2021
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Montpellier;Zone C;2017-2018
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Montpellier;Zone C;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Montpellier;Zone C;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Montpellier;Zone C;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Montpellier;Zone C;2020-2021
+Vacances d'Hiver;;2021-02-13;2021-03-01;Montpellier;Zone C;2020-2021
+Vacances d'Été;;2021-07-05;;Montpellier;Zone C;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Paris;Zone C;2017-2018
+Vacances de Printemps;;2020-04-04;2020-04-20;Paris;Zone C;2019-2020
+Pont de l'Ascension;;2020-05-20;2020-05-25;Paris;Zone C;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Paris;Zone C;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Toulouse;Zone C;2017-2018
+Vacances d'Hiver;;2019-02-23;2019-03-11;Toulouse;Zone C;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Toulouse;Zone C;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Toulouse;Zone C;2019-2020
+Vacances d'Hiver;;2020-02-08;2020-02-24;Toulouse;Zone C;2019-2020
+Pont de l'Ascension;;2020-05-20;2020-05-25;Toulouse;Zone C;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Toulouse;Zone C;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Versailles;Zone C;2017-2018
+Vacances d'Hiver;;2019-02-23;2019-03-11;Versailles;Zone C;2018-2019
+Vacances de Printemps;;2019-04-20;2019-05-06;Versailles;Zone C;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Versailles;Zone C;2019-2020
+Vacances d’Hiver;;2011-02-21;2011-03-07;Corse;Corse;2010-2011
+Vacances d'Été;Enseignants;2013-07-08;2013-09-05;Corse;Corse;2012-2013
+Vacances de la Toussaint;;2013-10-21;2013-11-04;Corse;Corse;2013-2014
+Vacances d'Été;Élèves;2014-07-10;2014-09-04;Corse;Corse;2013-2014
+Vacances de Printemps;;2016-04-24;2016-05-09;Corse;Corse;2015-2016
+Vacances de Noël;;2016-12-18;2017-01-03;Corse;Corse;2016-2017
+Vacances d'Été;Élèves;2017-07-12;2017-09-05;Corse;Corse;2016-2017
+Vacances d'Été;Enseignants;2018-07-10;2018-09-04;Corse;Corse;2017-2018
+Vacances d'Été;Enseignants;2019-07-08;2019-09-02;Corse;Corse;2018-2019
+Vacances d'Été;;2020-07-04;;Guadeloupe;Guadeloupe;2019-2020
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Guyane;Guyane;2017-2018
+Vacances de Noël;;2017-12-23;2018-01-08;Guyane;Guyane;2017-2018
+Vacances de Carnaval;;2018-02-10;2018-02-26;Guyane;Guyane;2017-2018
+Vacances de Printemps;;2018-03-29;2018-04-16;Guyane;Guyane;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Guyane;Guyane;2017-2018
+Vacances d'Été;Élèves;2019-07-08;2019-09-02;Guyane;Guyane;2018-2019
+Vacances d'Été;Élèves;2020-07-04;2020-09-01;Guyane;Guyane;2019-2020
+Vacances d'Été;;2021-07-03;;Guyane;Guyane;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Martinique;Martinique;2017-2018
+Vacances de Noël;;2017-12-20;2018-01-04;Martinique;Martinique;2017-2018
+Vacances de Printemps;;2018-03-24;2018-04-09;Martinique;Martinique;2017-2018
+Pont de l'Ascension;;2018-05-07;2018-05-14;Martinique;Martinique;2017-2018
+Vacances de Printemps;;2019-04-13;2019-04-29;Martinique;Martinique;2018-2019
+Pont de l'Ascension;;2020-05-22;2020-05-23;Martinique;Martinique;2019-2020
+Vacances d'Été;;2020-07-04;;Martinique;Martinique;2019-2020
+Vacances de Printemps;;2019-04-26;2019-05-06;Mayotte;Mayotte;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-08-23;Mayotte;Mayotte;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-21;Mayotte;Mayotte;2018-2019
+Vacances de Carnaval;;2020-02-29;2020-03-16;Mayotte;Mayotte;2019-2020
+Vacances de la Toussaint;;2020-10-10;2020-10-26;Mayotte;Mayotte;2020-2021
+Vacances de Printemps;;2021-04-30;2021-05-17;Mayotte;Mayotte;2020-2021
+Vacances 2ème période;;2019-06-08;2019-06-23;Nouvelle Calédonie;Nouvelle Calédonie;2019
+Vacances d'Été;Enseignants;2019-12-14;2020-02-17;Nouvelle Calédonie;Nouvelle Calédonie;2019
+Vacances 2ème période;;2020-06-06;2020-06-21;Nouvelle Calédonie;Nouvelle Calédonie;2020
+Vacances d'Été;Élèves;2020-12-19;2021-02-12;Nouvelle Calédonie;Nouvelle Calédonie;2020
+Vacances 1ère période;;2022-04-02;2022-04-17;Nouvelle Calédonie;Nouvelle Calédonie;2022
+Vacances de Septembre;;2017-09-16;2017-09-25;Polynésie;Polynésie;2017-2018
+Grandes Vacances;Enseignants du second degré;2018-07-07;2018-08-13;Polynésie;Polynésie;2017-2018
+Grandes Vacances;Enseignants du second degré;2018-07-07;2018-08-10;Polynésie;Polynésie;2017-2018
+Vacances de Noël;;2018-12-15;2019-01-14;Polynésie;Polynésie;2018-2019
+Vacances de Pâques;;2019-04-06;2019-04-22;Polynésie;Polynésie;2018-2019
+Grandes Vacances;Enseignants du second degré;2019-07-06;2019-08-09;Polynésie;Polynésie;2018-2019
+Vacances de Mai;;2020-05-16;2020-05-25;Polynésie;Polynésie;2019-2020
+Vacances de Noël;;2020-12-12;2021-01-11;Polynésie;Polynésie;2020-2021
+Grandes Vacances;Élèves du premier degré;2021-07-01;2021-08-11;Polynésie;Polynésie;2020-2021
+Vacances de Novembre;;2021-10-23;2021-11-08;Polynésie;Polynésie;2021-2022
+Vacances de Mai;Premier degré et collèges;2022-05-21;2022-05-30;Polynésie;Polynésie;2021-2022
+Vacances de Septembre;;2022-09-10;2022-09-19;Polynésie;Polynésie;2022-2023
+Vacances de Noël;;2022-12-10;2023-01-09;Polynésie;Polynésie;2022-2023
+Vacances de Février;;2023-02-18;2023-02-27;Polynésie;Polynésie;2022-2023
+Vacances de Pâques;;2023-04-01;2023-04-17;Polynésie;Polynésie;2022-2023
+Vacances après 1ère période;;2017-10-14;2017-10-30;Réunion;Réunion;2017-2018
+Vacances d'Hiver austral;Enseignants;2019-07-06;2019-08-14;Réunion;Réunion;2018-2019
+Vacances après 3ème période;;2020-03-07;2020-03-23;Réunion;Réunion;2019-2020
+Vacances d'Été;Élèves;2018-06-30;2018-09-07;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2017-2018
+Vacances d'Hiver;;2019-02-15;2019-03-04;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2018-2019
+Vacances de la Toussaint;;2019-10-25;2019-11-06;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2019-2020
+Vacances d'Été;Enseignants;2018-12-15;2019-02-08;Wallis et Futuna;Wallis et Futuna;2018
+Vacances 3ème période;;2019-08-10;2019-08-26;Wallis et Futuna;Wallis et Futuna;2019
+Vacances d'Été;Enseignants;2019-12-14;2020-02-07;Wallis et Futuna;Wallis et Futuna;2019
+Vacances d'Hiver;;2020-02-22;2020-03-09;Besançon;Zone A;2019-2020
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Bordeaux;Zone A;2017-2018
+Vacances de Noël;;2017-12-23;2018-01-08;Bordeaux;Zone A;2017-2018
+Pont de l'Ascension;;2019-05-29;2019-06-03;Bordeaux;Zone A;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Bordeaux;Zone A;2018-2019
+Pont de l'Ascension;;2020-05-20;2020-05-25;Bordeaux;Zone A;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Bordeaux;Zone A;2020-2021
+Vacances de Printemps;;2018-04-07;2018-04-23;Clermont-Ferrand;Zone A;2017-2018
+Vacances de Printemps;;2019-04-13;2019-04-29;Clermont-Ferrand;Zone A;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Clermont-Ferrand;Zone A;2019-2020
+Vacances d'Hiver;;2018-02-10;2018-02-26;Dijon;Zone A;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Dijon;Zone A;2017-2018
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Dijon;Zone A;2019-2020
+Pont de l'Ascension;;2020-05-20;2020-05-25;Dijon;Zone A;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Dijon;Zone A;2020-2021
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Grenoble;Zone A;2017-2018
+Vacances de Printemps;;2019-04-13;2019-04-29;Grenoble;Zone A;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Grenoble;Zone A;2018-2019
+Vacances de Printemps;;2020-04-18;2020-05-04;Grenoble;Zone A;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Grenoble;Zone A;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Grenoble;Zone A;2020-2021
+Vacances de Printemps;;2018-04-07;2018-04-23;Limoges;Zone A;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Limoges;Zone A;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Limoges;Zone A;2018-2019
+Vacances d'Hiver;;2019-02-16;2019-03-04;Limoges;Zone A;2018-2019
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Limoges;Zone A;2020-2021
+Vacances d'Été;;2021-07-05;;Limoges;Zone A;2020-2021
+Vacances d'Hiver;;2018-02-10;2018-02-26;Lyon;Zone A;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Lyon;Zone A;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Lyon;Zone A;2018-2019
+Vacances d'Hiver;;2019-02-16;2019-03-04;Lyon;Zone A;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Lyon;Zone A;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Lyon;Zone A;2019-2020
+Vacances de Printemps;;2020-04-18;2020-05-04;Lyon;Zone A;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Lyon;Zone A;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Poitiers;Zone A;2017-2018
+Vacances d'Hiver;;2018-02-10;2018-02-26;Poitiers;Zone A;2017-2018
+Vacances de Printemps;;2018-04-07;2018-04-23;Poitiers;Zone A;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Poitiers;Zone A;2018-2019
+Vacances de Printemps;;2019-04-13;2019-04-29;Poitiers;Zone A;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Poitiers;Zone A;2018-2019
+Vacances d'Hiver;;2020-02-22;2020-03-09;Poitiers;Zone A;2019-2020
+Vacances de Printemps;;2020-04-18;2020-05-04;Poitiers;Zone A;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Poitiers;Zone A;2019-2020
+Vacances d'Hiver;;2018-02-24;2018-03-12;Aix-Marseille;Zone B;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Aix-Marseille;Zone B;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Aix-Marseille;Zone B;2018-2019
+Vacances d'Hiver;;2019-02-09;2019-02-25;Aix-Marseille;Zone B;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Aix-Marseille;Zone B;2018-2019
+Vacances d'Hiver;;2020-02-15;2020-03-02;Aix-Marseille;Zone B;2019-2020
+Vacances de Noël;;2018-12-22;2019-01-07;Amiens;Zone B;2018-2019
+Vacances de Printemps;;2019-04-06;2019-04-23;Amiens;Zone B;2018-2019
+Vacances d'Été;;2020-07-04;2020-09-01;Amiens;Zone B;2019-2020
+Vacances de Noël;;2017-12-23;2018-01-08;Caen;Zone B;2017-2018
+Vacances d'Hiver;;2018-02-24;2018-03-12;Caen;Zone B;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Caen;Zone B;2017-2018
+Pont de l'Ascension;;2020-05-20;2020-05-25;Normandie;Zone B;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Normandie;Zone B;2019-2020
+Vacances de Printemps;;2021-04-24;2021-05-10;Normandie;Zone B;2020-2021
+Vacances de Printemps;;2018-04-21;2018-05-07;Lille;Zone B;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Lille;Zone B;2018-2019
+Vacances de Printemps;;2021-04-24;2021-05-10;Lille;Zone B;2020-2021
+Vacances de Printemps;;2018-04-21;2018-05-07;Nancy-Metz;Zone B;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Nancy-Metz;Zone B;2017-2018
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Nancy-Metz;Zone B;2019-2020
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Nantes;Zone B;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Nantes;Zone B;2017-2018
+Vacances d'Hiver;;2019-02-09;2019-02-25;Nantes;Zone B;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Nantes;Zone B;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Nantes;Zone B;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Nantes;Zone B;2019-2020
+Vacances d'Hiver;;2020-02-15;2020-03-02;Nantes;Zone B;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Nantes;Zone B;2020-2021
+Vacances d'Hiver;;2018-02-24;2018-03-12;Nice;Zone B;2017-2018
+Vacances de Printemps;;2018-04-21;2018-05-07;Nice;Zone B;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Nice;Zone B;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Nice;Zone B;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Nice;Zone B;2019-2020
+Pont de l'Ascension;;2020-05-20;2020-05-25;Nice;Zone B;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Nice;Zone B;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Orléans-Tours;Zone B;2017-2018
+Vacances de Printemps;;2019-04-06;2019-04-23;Orléans-Tours;Zone B;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Orléans-Tours;Zone B;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Orléans-Tours;Zone B;2019-2020
+Vacances d'Été;;2021-07-05;;Orléans-Tours;Zone B;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Reims;Zone B;2017-2018
+Vacances de Printemps;;2019-04-06;2019-04-23;Reims;Zone B;2018-2019
+Vacances de Printemps;;2020-04-11;2020-04-27;Reims;Zone B;2019-2020
+Vacances d'Hiver;;2019-02-09;2019-02-25;Rennes;Zone B;2018-2019
+Vacances de Printemps;;2019-04-06;2019-04-23;Rennes;Zone B;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Rennes;Zone B;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Rennes;Zone B;2019-2020
+Vacances d'Hiver;;2021-02-20;2021-03-08;Rennes;Zone B;2020-2021
+Vacances de Printemps;;2021-04-24;2021-05-10;Rennes;Zone B;2020-2021
+Vacances de Printemps;;2018-04-21;2018-05-07;Rouen;Zone B;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Rouen;Zone B;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Rouen;Zone B;2019-2020
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Strasbourg;Zone B;2018-2019
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Strasbourg;Zone B;2020-2021
+Vacances d'Hiver;;2021-02-20;2021-03-08;Strasbourg;Zone B;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Strasbourg;Zone B;2020-2021
+Vacances de Noël;;2018-12-22;2019-01-07;Créteil;Zone C;2018-2019
+Vacances de Printemps;;2019-04-20;2019-05-06;Créteil;Zone C;2018-2019
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Créteil;Zone C;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Montpellier;Zone C;2017-2018
+Vacances de Printemps;;2018-04-14;2018-04-30;Montpellier;Zone C;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Montpellier;Zone C;2018-2019
+Vacances d'Hiver;;2019-02-23;2019-03-11;Montpellier;Zone C;2018-2019
+Vacances d'Hiver;;2020-02-08;2020-02-24;Montpellier;Zone C;2019-2020
+Vacances de Noël;;2018-12-22;2019-01-07;Paris;Zone C;2018-2019
+Vacances d'Hiver;;2019-02-23;2019-03-11;Paris;Zone C;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Paris;Zone C;2018-2019
+Vacances d'Hiver;;2021-02-13;2021-03-01;Paris;Zone C;2020-2021
+Vacances de Printemps;;2018-04-14;2018-04-30;Toulouse;Zone C;2017-2018
+Vacances de Printemps;;2020-04-04;2020-04-20;Toulouse;Zone C;2019-2020
+Vacances de Printemps;;2020-04-04;2020-04-20;Versailles;Zone C;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Versailles;Zone C;2019-2020
+Vacances de Printemps;;2010-04-26;2010-05-10;Corse;Corse;2009-2010
+Vacances d'Été;Élèves;2010-07-08;2010-09-09;Corse;Corse;2009-2010
+Vacances d'Été;Enseignants;2010-07-08;2010-09-09;Corse;Corse;2009-2010
+Vacances d'Été;Élèves;2011-07-06;2011-09-09;Corse;Corse;2010-2011
+Vacances de Printemps;;2012-04-23;2012-05-07;Corse;Corse;2011-2012
+Vacances de Noël;;2012-12-24;2013-01-07;Corse;Corse;2012-2013
+Vacances d'Hiver;;2014-02-24;2014-03-10;Corse;Corse;2013-2014
+Vacances de Noël;;2014-12-21;2015-01-05;Corse;Corse;2014-2015
+Vacances de la Toussaint;;2016-10-20;2016-11-03;Corse;Corse;2016-2017
+Vacances d'Été;Enseignants;2017-07-12;2017-09-04;Corse;Corse;2016-2017
+Vacances d'Hiver;;2018-02-26;2018-03-12;Corse;Corse;2017-2018
+Vacances d'Été;Élèves du premier degré;2018-07-10;2018-09-05;Corse;Corse;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Guadeloupe;Guadeloupe;2018-2019
+Abolition de l’esclavage;Saint-Barthélémy;2019-10-09;2019-10-09;Guadeloupe;Guadeloupe;2019-2020
+Vacances de Carnaval;;2020-02-15;2020-03-02;Guadeloupe;Guadeloupe;2019-2020
+Pont de l'Ascension;;2020-05-22;2020-05-23;Guadeloupe;Guadeloupe;2019-2020
+Vacances de Printemps;;2019-04-18;2019-05-06;Guyane;Guyane;2018-2019
+Pont de l'Ascension;;2020-05-20;2020-05-25;Guyane;Guyane;2019-2020
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Martinique;Martinique;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Martinique;Martinique;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Martinique;Martinique;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Martinique;Martinique;2018-2019
+Vacances de Carnaval;;2020-02-22;2020-03-09;Martinique;Martinique;2019-2020
+Vacances de Carnaval;;2018-02-24;2018-03-12;Mayotte;Mayotte;2017-2018
+Vacances de Printemps;;2018-05-05;2018-05-14;Mayotte;Mayotte;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-08-23;Mayotte;Mayotte;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-20;Mayotte;Mayotte;2017-2018
+Vacances de Printemps;;2020-05-02;2020-05-11;Mayotte;Mayotte;2019-2020
+Vacances d'Été;Enseignants;2020-07-04;2020-08-20;Mayotte;Mayotte;2019-2020
+Vacances 4ème période;;2018-10-13;2018-10-28;Nouvelle Calédonie;Nouvelle Calédonie;2018
+Vacances d'Été;Enseignants;2018-12-15;2019-02-15;Nouvelle Calédonie;Nouvelle Calédonie;2018
+Vacances 1ère période;;2021-04-03;2021-04-18;Nouvelle Calédonie;Nouvelle Calédonie;2021
+Vacances 2ème période;;2021-06-05;2021-06-20;Nouvelle Calédonie;Nouvelle Calédonie;2021
+Vacances de Novembre;;2017-10-28;2017-11-13;Polynésie;Polynésie;2017-2018
+Vacances de Pâques;;2018-03-31;2018-04-16;Polynésie;Polynésie;2017-2018
+Grandes Vacances;Élèves du second degré;2018-07-07;2018-08-10;Polynésie;Polynésie;2017-2018
+Grandes Vacances;Élèves du second degré;2018-07-07;2018-08-14;Polynésie;Polynésie;2017-2018
+Vacances de Septembre;;2018-09-15;2018-09-24;Polynésie;Polynésie;2018-2019
+Vacances de Novembre;;2018-10-27;2018-11-12;Polynésie;Polynésie;2018-2019
+Vacances de Noël;;2019-12-14;2020-01-13;Polynésie;Polynésie;2019-2020
+Vacances de Février;;2020-02-15;2020-02-24;Polynésie;Polynésie;2019-2020
+Vacances de Février;;2021-02-20;2021-03-01;Polynésie;Polynésie;2020-2021
+Grandes Vacances;Élèves des lycées;2021-06-26;2021-08-10;Polynésie;Polynésie;2020-2021
+Grandes Vacances;Élèves des collèges;2021-07-03;2021-08-10;Polynésie;Polynésie;2020-2021
+Vacances de Septembre;;2021-09-11;2021-09-20;Polynésie;Polynésie;2021-2022
+Vacances de Février;;2022-02-19;2022-02-28;Polynésie;Polynésie;2021-2022
+Grandes Vacances;Enseignants du premier degré;2022-06-30;2022-08-08;Polynésie;Polynésie;2021-2022
+Vacances de Novembre;;2022-10-22;2022-11-07;Polynésie;Polynésie;2022-2023
+Vacances après 1ère période;;2019-10-12;2019-10-28;Réunion;Réunion;2019-2020
+Vacances après 4ème période;;2020-04-30;2020-05-14;Réunion;Réunion;2019-2020
+Vacances d'Hiver austral;Enseignants;2020-07-04;2020-08-14;Réunion;Réunion;2019-2020
+Vacances d'Été austral;;2020-12-19;2021-01-25;Réunion;Réunion;2020-2021
+Vacances après 4ème période;;2021-05-04;2021-05-17;Réunion;Réunion;2020-2021
+Vacances de la Toussaint;;2017-10-25;2017-11-06;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2017-2018
+Vacances d'Hiver;;2018-02-24;2018-03-12;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2017-2018
+Vacances de Printemps;;2018-04-28;2018-05-14;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2017-2018
+Vacances de Printemps;;2019-04-19;2019-05-06;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2018-2019
+Vacances d'Été;;2020-07-03;;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2019-2020
+Vacances 4ème période;;2018-10-13;2018-10-29;Wallis et Futuna;Wallis et Futuna;2018
+Vacances 1ère période;;2019-03-30;2019-04-15;Wallis et Futuna;Wallis et Futuna;2019
+Vacances 1ère période;;2020-03-28;2020-04-13;Wallis et Futuna;Wallis et Futuna;2020
+Vacances 2ème période;;2020-06-06;2020-06-22;Wallis et Futuna;Wallis et Futuna;2020
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Besançon;Zone A;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Besançon;Zone A;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Besançon;Zone A;2019-2020
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Bordeaux;Zone A;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Bordeaux;Zone A;2018-2019
+Vacances de Noël;;2018-12-22;2019-01-07;Bordeaux;Zone A;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Bordeaux;Zone A;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Bordeaux;Zone A;2020-2021
+Vacances d'Été;;2021-07-05;;Bordeaux;Zone A;2020-2021
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Clermont-Ferrand;Zone A;2017-2018
+Vacances d'Hiver;;2020-02-22;2020-03-09;Clermont-Ferrand;Zone A;2019-2020
+Vacances de Printemps;;2020-04-18;2020-05-04;Clermont-Ferrand;Zone A;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Clermont-Ferrand;Zone A;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Clermont-Ferrand;Zone A;2020-2021
+Vacances de Noël;;2020-12-19;2021-01-04;Clermont-Ferrand;Zone A;2020-2021
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Dijon;Zone A;2018-2019
+Vacances d'Hiver;;2019-02-16;2019-03-04;Dijon;Zone A;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Dijon;Zone A;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Dijon;Zone A;2019-2020
+Vacances d'Hiver;;2020-02-22;2020-03-09;Dijon;Zone A;2019-2020
+Vacances d'Hiver;;2021-02-06;2021-02-22;Dijon;Zone A;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Dijon;Zone A;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Grenoble;Zone A;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Grenoble;Zone A;2017-2018
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Grenoble;Zone A;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Grenoble;Zone A;2019-2020
+Vacances d'Hiver;;2021-02-06;2021-02-22;Grenoble;Zone A;2020-2021
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Limoges;Zone A;2017-2018
+Vacances de Printemps;;2019-04-13;2019-04-29;Limoges;Zone A;2018-2019
+Vacances de Printemps;;2020-04-18;2020-05-04;Limoges;Zone A;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Limoges;Zone A;2019-2020
+Vacances de Printemps;;2021-04-10;2021-04-26;Limoges;Zone A;2020-2021
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Lyon;Zone A;2017-2018
+Vacances de Printemps;;2019-04-13;2019-04-29;Lyon;Zone A;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Lyon;Zone A;2018-2019
+Pont de l'Ascension;;2020-05-20;2020-05-25;Lyon;Zone A;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Lyon;Zone A;2020-2021
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Poitiers;Zone A;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Poitiers;Zone A;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Poitiers;Zone A;2018-2019
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Poitiers;Zone A;2020-2021
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Aix-Marseille;Zone B;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Aix-Marseille;Zone B;2019-2020
+Pont de l'Ascension;;2020-05-20;2020-05-25;Aix-Marseille;Zone B;2019-2020
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Amiens;Zone B;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Amiens;Zone B;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Amiens;Zone B;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Amiens;Zone B;2018-2019
+Pont de l'Ascension;;2020-05-20;2020-05-25;Amiens;Zone B;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Amiens;Zone B;2020-2021
+Vacances de Noël;;2020-12-19;2021-01-04;Amiens;Zone B;2020-2021
+Vacances d'Hiver;;2021-02-20;2021-03-08;Amiens;Zone B;2020-2021
+Vacances d'Été;;2021-07-05;;Amiens;Zone B;2020-2021
+Vacances de Printemps;;2019-04-06;2019-04-23;Caen;Zone B;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Caen;Zone B;2018-2019
+Vacances de Printemps;;2020-04-11;2020-04-27;Normandie;Zone B;2019-2020
+Vacances d'Hiver;;2021-02-20;2021-03-08;Normandie;Zone B;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Normandie;Zone B;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Lille;Zone B;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Lille;Zone B;2017-2018
+Pont de l'Ascension;;2019-05-29;2019-06-03;Lille;Zone B;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Lille;Zone B;2019-2020
+Vacances de Noël;;2019-12-21;2020-01-06;Lille;Zone B;2019-2020
+Vacances d'Hiver;;2020-02-15;2020-03-02;Lille;Zone B;2019-2020
+Vacances de Printemps;;2020-04-11;2020-04-27;Lille;Zone B;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Lille;Zone B;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Lille;Zone B;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Nancy-Metz;Zone B;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Nancy-Metz;Zone B;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Nancy-Metz;Zone B;2018-2019
+Vacances de Printemps;;2019-04-06;2019-04-23;Nancy-Metz;Zone B;2018-2019
+Pont de l'Ascension;;2019-05-29;2019-06-03;Nancy-Metz;Zone B;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Nancy-Metz;Zone B;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Nancy-Metz;Zone B;2019-2020
+Pont de l'Ascension;;2021-05-13;2021-05-17;Nancy-Metz;Zone B;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Nantes;Zone B;2017-2018
+Vacances de Printemps;;2018-04-21;2018-05-07;Nantes;Zone B;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Nantes;Zone B;2017-2018
+Vacances de Printemps;;2021-04-24;2021-05-10;Nantes;Zone B;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Nantes;Zone B;2020-2021
+Vacances de la Toussaint;;2017-10-21;2017-11-06;Nice;Zone B;2017-2018
+Vacances de Noël;;2017-12-23;2018-01-08;Nice;Zone B;2017-2018
+Vacances d'Hiver;;2019-02-09;2019-02-25;Nice;Zone B;2018-2019
+Vacances d'Hiver;;2020-02-15;2020-03-02;Nice;Zone B;2019-2020
+Vacances de Printemps;;2020-04-11;2020-04-27;Nice;Zone B;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Nice;Zone B;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Nice;Zone B;2020-2021
+Vacances de Printemps;;2021-04-24;2021-05-10;Nice;Zone B;2020-2021
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Orléans-Tours;Zone B;2017-2018
+Pont de l'Ascension;;2021-05-13;2021-05-17;Orléans-Tours;Zone B;2020-2021
+Vacances d'Hiver;;2018-02-24;2018-03-12;Reims;Zone B;2017-2018
+Vacances de Printemps;;2018-04-21;2018-05-07;Reims;Zone B;2017-2018
+Pont de l'Ascension;;2019-05-29;2019-06-03;Reims;Zone B;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Reims;Zone B;2018-2019
+Pont de l'Ascension;;2020-05-20;2020-05-25;Reims;Zone B;2019-2020
+Vacances d'Été;;2020-07-04;2020-09-01;Reims;Zone B;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Reims;Zone B;2020-2021
+Vacances de Noël;;2020-12-19;2021-01-04;Reims;Zone B;2020-2021
+Vacances d'Été;;2021-07-05;;Reims;Zone B;2020-2021
+Vacances de Noël;;2020-12-19;2021-01-04;Rennes;Zone B;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Rennes;Zone B;2020-2021
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Rouen;Zone B;2017-2018
+Vacances d'Hiver;;2019-02-09;2019-02-25;Rouen;Zone B;2018-2019
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Rouen;Zone B;2018-2019
+Vacances d'Hiver;;2018-02-24;2018-03-12;Strasbourg;Zone B;2017-2018
+Pont de l'Ascension;;2019-05-29;2019-06-03;Strasbourg;Zone B;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Strasbourg;Zone B;2019-2020
+Vacances de Printemps;;2021-04-24;2021-05-10;Strasbourg;Zone B;2020-2021
+Vacances d'Hiver;;2019-02-23;2019-03-11;Créteil;Zone C;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Créteil;Zone C;2019-2020
+Vacances de Printemps;;2020-04-04;2020-04-20;Créteil;Zone C;2019-2020
+Vacances d'Été;;2021-07-05;;Créteil;Zone C;2020-2021
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Montpellier;Zone C;2017-2018
+Pont de l'Ascension;;2020-05-20;2020-05-25;Montpellier;Zone C;2019-2020
+Pont de l'Ascension;;2021-05-13;2021-05-17;Montpellier;Zone C;2020-2021
+Vacances d'Hiver;;2018-02-17;2018-03-05;Paris;Zone C;2017-2018
+Vacances de Printemps;;2018-04-14;2018-04-30;Paris;Zone C;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Paris;Zone C;2017-2018
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Paris;Zone C;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Paris;Zone C;2020-2021
+Vacances de Printemps;;2021-04-17;2021-05-03;Paris;Zone C;2020-2021
+Pont de l'Ascension;;2021-05-13;2021-05-17;Paris;Zone C;2020-2021
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Toulouse;Zone C;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Toulouse;Zone C;2017-2018
+Vacances de Noël;;2020-12-19;2021-01-04;Toulouse;Zone C;2020-2021
+Vacances d'Été;;2021-07-05;;Toulouse;Zone C;2020-2021
+Vacances de Noël;;2017-12-23;2018-01-08;Versailles;Zone C;2017-2018
+Vacances de Printemps;;2018-04-14;2018-04-30;Versailles;Zone C;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Versailles;Zone C;2017-2018
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Versailles;Zone C;2017-2018
+Vacances d'Été;Élèves;2019-07-06;2019-09-02;Versailles;Zone C;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Versailles;Zone C;2018-2019
+Vacances d'Hiver;;2020-02-08;2020-02-24;Versailles;Zone C;2019-2020
+Pont de l'Ascension;;2020-05-20;2020-05-25;Versailles;Zone C;2019-2020
+Vacances de la Toussaint;;2020-10-17;2020-11-02;Versailles;Zone C;2020-2021
+Vacances d'Hiver;;2021-02-13;2021-03-01;Versailles;Zone C;2020-2021
+Vacances d'Été;;2021-07-05;;Versailles;Zone C;2020-2021
+Vacances de la Toussaint;;2009-10-26;2009-11-09;Corse;Corse;2009-2010
+Vacances d'Été;;2010-07-08;2010-09-08;Corse;Corse;2009-2010
+Vacances de Noël;;2010-12-20;2011-01-03;Corse;Corse;2010-2011
+Vacances de Printemps;;2011-04-18;2011-05-02;Corse;Corse;2010-2011
+Vacances d’Hiver;;2012-02-20;2012-03-05;Corse;Corse;2011-2012
+Vacances d'Été;Élèves;2012-07-09;2012-09-10;Corse;Corse;2011-2012
+Vacances d’Hiver;;2013-02-18;2013-03-04;Corse;Corse;2012-2013
+Vacances de Noël;;2013-12-23;2014-01-06;Corse;Corse;2013-2014
+Vacances d'Hiver;;2015-02-22;2015-03-09;Corse;Corse;2014-2015
+Vacances d'Été;Élèves;2016-07-07;2016-09-05;Corse;Corse;2015-2016
+Vacances de la Toussaint;;2017-10-23;2017-11-06;Corse;Corse;2017-2018
+Vacances d'Été;Élèves du second degré;2018-07-10;2018-09-06;Corse;Corse;2017-2018
+Vacances d'Hiver;;2019-02-25;2019-03-11;Corse;Corse;2018-2019
+Vacances d'Été;Enseignants;2019-07-06;2019-08-30;Guadeloupe;Guadeloupe;2018-2019
+Vacances de Noël;;2019-12-21;2020-01-06;Guadeloupe;Guadeloupe;2019-2020
+Vacances de Printemps;;2020-04-08;2020-04-23;Guadeloupe;Guadeloupe;2019-2020
+Vacances d'Été;Enseignants;2018-07-07;2018-08-31;Guyane;Guyane;2017-2018
+Vacances de la Toussaint;;2018-10-20;2018-11-05;Guyane;Guyane;2018-2019
+Vacances de Noël;;2018-12-22;2019-01-07;Guyane;Guyane;2018-2019
+Vacances de Carnaval;;2019-02-23;2019-03-11;Guyane;Guyane;2018-2019
+Vacances d'Été;Enseignants;2020-07-04;2020-08-31;Guyane;Guyane;2019-2020
+Vacances de Noël;;2020-12-19;2021-01-04;Guyane;Guyane;2020-2021
+Vacances de Carnaval;;2018-02-07;2018-02-19;Martinique;Martinique;2017-2018
+Vacances d'Été;Élèves;2018-07-07;2018-09-03;Martinique;Martinique;2017-2018
+Vacances de Noël;;2018-12-22;2019-01-07;Martinique;Martinique;2018-2019
+Vacances de la Toussaint;;2019-10-19;2019-11-04;Martinique;Martinique;2019-2020
+Vacances de Noël;;2017-12-09;2018-01-08;Mayotte;Mayotte;2017-2018
+Vacances de la Toussaint;;2019-10-12;2019-10-28;Mayotte;Mayotte;2019-2020
+Vacances d'Été;Élèves;2020-07-04;2020-08-24;Mayotte;Mayotte;2019-2020
+Vacances de Noël;;2020-12-12;2021-01-11;Mayotte;Mayotte;2020-2021
+Vacances 1ère période;;2018-04-07;2018-04-15;Nouvelle Calédonie;Nouvelle Calédonie;2018
+Vacances d'Été;Élèves;2018-12-15;2019-02-18;Nouvelle Calédonie;Nouvelle Calédonie;2018
+Vacances 3ème période;;2019-08-10;2019-08-25;Nouvelle Calédonie;Nouvelle Calédonie;2019
+Vacances 4ème période;;2020-10-10;2020-10-25;Nouvelle Calédonie;Nouvelle Calédonie;2020
+Vacances d'Été;Enseignants;2020-12-19;2021-02-15;Nouvelle Calédonie;Nouvelle Calédonie;2020
+Vacances 3ème période;;2021-08-07;2021-08-22;Nouvelle Calédonie;Nouvelle Calédonie;2021
+Vacances 2ème période;;2022-06-04;2022-06-19;Nouvelle Calédonie;Nouvelle Calédonie;2022
+Vacances d'Été;;2022-12-17;;Nouvelle Calédonie;Nouvelle Calédonie;2022
+Vacances de Mai;;2018-05-19;2018-05-28;Polynésie;Polynésie;2017-2018
+Grandes Vacances;Enseignants du premier degré;2018-07-05;2018-08-16;Polynésie;Polynésie;2017-2018
+Grandes Vacances;Élèves du premier degré;2018-07-05;2018-08-14;Polynésie;Polynésie;2017-2018
+Vacances de Février;;2019-02-16;2019-02-25;Polynésie;Polynésie;2018-2019
+Vacances de Novembre;;2019-10-26;2019-11-12;Polynésie;Polynésie;2019-2020
+Vacances de Pâques;;2020-03-28;2020-04-14;Polynésie;Polynésie;2019-2020
+Grandes Vacances;Enseignants du premier degré;2020-07-02;2020-08-10;Polynésie;Polynésie;2019-2020
+Grandes Vacances;Élèves du premier degré;2020-07-02;2020-08-12;Polynésie;Polynésie;2019-2020
+Grandes Vacances;Enseignants du second degré;2020-07-04;2020-08-10;Polynésie;Polynésie;2019-2020
+Vacances de Pâques;;2022-04-02;2022-04-19;Polynésie;Polynésie;2021-2022
+Grandes Vacances;Collèges;2023-07-01;;Polynésie;Polynésie;2022-2023
+Vacances d'Hiver austral;Élèves;2018-07-07;2018-08-17;Réunion;Réunion;2017-2018
+Vacances après 4ème période;;2019-05-07;2019-05-20;Réunion;Réunion;2018-2019
+Vacances d'Été;Enseignants;2018-06-30;2018-09-06;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2017-2018
+Vacances d'Hiver;;2020-02-21;2020-03-09;Saint Pierre et Miquelon;Saint Pierre et Miquelon;2019-2020
+Vacances d'Été;Élèves;2018-12-15;2019-02-11;Wallis et Futuna;Wallis et Futuna;2018
+Vacances 4ème période;;2019-10-12;2019-10-28;Wallis et Futuna;Wallis et Futuna;2019
+Vacances d'Été;Élèves;2019-12-14;2020-02-10;Wallis et Futuna;Wallis et Futuna;2019
