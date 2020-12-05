@@ -695,9 +695,9 @@ def export_concat_datasets(sep_date_str, export=True):
         'Temps avant les prochaines vacances scolaires', 'tempC', 'windspeedKmph',
         'winddirDegree', 'weatherCode', 'precipMM', 'humidity', 'visibility',
         'pressure', 'cloudcover', 'HeatIndexC', 'DewPointC', 'WindChillC',
-        'WindGustKmph', 'FeelsLikeC', 'uvIndex', 'maxtempC', 'mintempC',
-        'avgtempC', 'totalSnow_cm', 'sunHour', 'uvIndex', 'sunrise', 'sunset',
-        'moon_phase', 'moon_illumination', 'Journée'
+        'WindGustKmph', 'FeelsLikeC', 'hourly_uvIndex', 'maxtempC', 'mintempC',
+        'avgtempC', 'totalSnow_cm', 'sunHour', 'daily_uvIndex', 'sunrise',
+        'sunset', 'moon_phase', 'moon_illumination', 'Journée'
     ]
 
     df_concat = df_concat[columns_new_order]

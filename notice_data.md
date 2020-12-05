@@ -48,13 +48,12 @@
     - WindGustKmph : Wind gust in kilometers per hour
     - FeelsLikeC : Feels like temperature in degrees Celsius
   - Par jour :
-    - uvIndex : UV Index
     - maxtempC : Maximum temperature of the day in degree Celsius
     - mintempC : Minimum temperature of the day in degree Celsius
     - avgtempC : Average temperature of the day  in degree Celsius
     - totalSnow_cm : Total snowfall amount in cm
     - sunHour : Total sun hour
-    - uvIndex : UV Index
+    - hourly_uvIndex : UV Index
     - sunrise : Local sunrise time
     - sunset : Local sunset time
     - moon_phase : Moon phase
@@ -74,3 +73,4 @@
   - https://www.data.gouv.fr/en/datasets/le-calendrier-scolaire/
 - Données météo :
   - https://www.worldweatheronline.com/developer/api/docs/historical-weather-api.aspx
+
