@@ -177,6 +177,9 @@ def combine_both_df(daily_df, hourly_df, save=True):
     # rewrite the indexes
     daily_df_24.reset_index(inplace=True)
     hourly_df.reset_index(inplace=True)
+    # rename one feature to avoid conflict
+    daily_df_24.rename(columns={'uvIndex': 'daily_uvIndex'}, inplace=True)
+    hourly_df.rename(columns={'uvIndex': 'hourly_uvIndex'}, inplace=True)
     # combine both
     combined_df = pd.concat([hourly_df, daily_df_24], axis=1)
     # drop useless columns
