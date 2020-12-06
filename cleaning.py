@@ -716,3 +716,25 @@ def export_concat_datasets(sep_date_str, export=True):
         df_concat_test.to_pickle('data/df_concat_test.pkl')
 
     return df_concat_train, df_concat_test
+
+def break_timestamp(df):
+    """Return a new DataFrame with extra columns for date times.
+
+    Args:
+        df (DataFrame)
+    """
+
+    def datetime_to_yday(row):
+        return row['Date et heure de comptage'].timetuple().tm_yday
+
+    def datetime_to_mday(row):
+        return row['Date et heure de comptage'].timetuple().tm_mday
+    
+    def is_weekend(row):
+        return row['Date et heure de comptage'].timetuple().tm_wday in [5, 6]
+    
+    df['year_day'] = df.apply(datetime_to_yday, axis=1)
+    df['month_day'] = df.apply(datetime_to_mday, axis=1)
+    df['is_weekend'] = df.apply(is_weekend, axis=1) 
+    
+    return df
