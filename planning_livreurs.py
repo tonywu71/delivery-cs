@@ -236,5 +236,3 @@ def main():
     all_shifts=num_weeks * len(tagg_heure) * 7
     wb = print_solution_blockwise_del(zones, all_shifts, livreurs, solver, work, tagg_heure)
     wb.save('planning_test.xls')
-
-main()
