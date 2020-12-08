@@ -101,8 +101,8 @@ def solve_shift_scheduling(livreurs, Creneaux, num_weeks, zones, max_shift_per_d
     solver.parameters.max_time_in_seconds = waiting_time
     solution_printer = cp_model.ObjectiveSolutionPrinter()
     status_int = solver.SolveWithSolutionCallback(model, solution_printer)
-    print("status : {}".format(status_int))
-    print("INFEASIBLE:{}".format(cp_model.INFEASIBLE))
+    # print("status : {}".format(status_int))
+    # print("INFEASIBLE:{}".format(cp_model.INFEASIBLE))
 
     return solver, work, status_int
 
@@ -123,7 +123,7 @@ def print_solution_blockwise_del(zones,all_shift, livreurs, solver, work, shift_
     days = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 
     c = 4
-    print(xlwt.Style.colour_map)
+    # print(xlwt.Style.colour_map)
     for i in range(all_shift):
         k = 2
         if i % len(shift_tagg) == len(shift_tagg) - 1:
@@ -204,7 +204,7 @@ def main():
     tx_occup_ACE = np.array(df_ACE["Taux d'occupation"])
     debit_ACE = np.array(df_ACE['Débit horaire'])
 
-    print(df_ACE['Date et heure de comptage'])
+    # print(df_ACE['Date et heure de comptage'])
     df_Sts = df_Sts[(df_Sts['Date et heure de comptage'] >= debut)]
     df_Sts = df_Sts[(df_Sts['Date et heure de comptage'] <= fin)]
     tx_occup_Sts = np.array(df_Sts["Taux d'occupation"])
@@ -214,9 +214,9 @@ def main():
     df_convention = df_convention[(df_convention['Date et heure de comptage'] <= fin)]
     tx_occup_convention = np.array(df_convention["Taux d'occupation"])
     debit_convention = np.array(df_convention['Débit horaire'])
-    print(len(tx_occup_convention))
+    # print(len(tx_occup_convention))
 
-    #print(tx_occup_convention)
+    ## print(tx_occup_convention)
     occ_rues = {}
     for zone in zones:
         for d in range (num_weeks*7):
