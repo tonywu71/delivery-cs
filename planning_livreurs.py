@@ -87,6 +87,16 @@ def solve_shift_scheduling(livreurs, Creneaux, num_weeks, zones, max_shift_per_d
                     obj_bool_vars.append(work[e, s, d, zone])
                     obj_bool_coeffs.append(occ_rues[s-1,d,zone])
 
+    # ------------- MODIFICATION -----------------
+    for zone in zones:
+        for e in range(num_employees):
+            for d in range(num_days):
+                for s in range(1,num_shifts):
+                    if 1<= s <= 8 or 21<= s <= 24:
+                        obj_bool_vars.append(work[e, s, d, zone])
+                        obj_bool_coeffs.append(14)
+
+    # ---------------------------------------------
     # Objective
     model.Minimize(
         sum(obj_bool_vars[i] * obj_bool_coeffs[i]
@@ -108,41 +118,67 @@ def solve_shift_scheduling(livreurs, Creneaux, num_weeks, zones, max_shift_per_d
 
 
 
-def print_solution_blockwise_del(zones,all_shift, livreurs, solver, work, shift_tagg):
+def print_solution_blockwise_del(zones,all_shift, livreurs, solver, work, shift_tagg, occ_rues):
 
     wb = Workbook()
     sheet1 = wb.add_sheet('Sheet 1', cell_overwrite_ok=True)
-
+    # -------------- MODIFICATION --------------
+    sheet1.write(4, 1, 'Heures')
+    sheet1.write(4, 0, 'Jours')
 
     for i, s in enumerate(zones):
-        sheet1.write(3, 2+i, str(s))
+        sheet1.write(4, 2+i, str(s))
         # for j in range(len(tasks[task])):
         #     tasks[task].append(tasks[task][j] + 21)
         #     tasks[task].append(tasks[task][j] + 42)
     l = len(zones)
     days = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 
-    c = 4
+    c = 5
+    sum = 0
     print(xlwt.Style.colour_map)
     for i in range(all_shift):
         k = 2
         if i % len(shift_tagg) == len(shift_tagg) - 1:
-            sheet1.write(4+i, 0, days[(i // len(shift_tagg)) % 7])
-        sheet1.write(4 + i, 1, shift_tagg[(i) % len(shift_tagg)])
+            sheet1.write(5+i, 0, days[(i // len(shift_tagg)) % 7])
+        sheet1.write(5 + i, 1, shift_tagg[(i) % len(shift_tagg)])
 
 
         for zone in zones:
 
             for e in livreurs.keys():
                 if solver.BooleanValue(work[e, i % len(shift_tagg) + 1, i // len(shift_tagg), zone]):
+                    if  0<= occ_rues[i % len(shift_tagg), i // len(shift_tagg), zone] <= 78:
+                        style = xlwt.easyxf(
+                            'font : color black; alignment: horizontal center; pattern: pattern solid, fore_color green')
+                        sheet1.write(c, k, livreurs[e],style)
+                    elif  78<= occ_rues[i % len(shift_tagg), i // len(shift_tagg), zone] <= 156:
+                        style = xlwt.easyxf(
+                            'font : color black; alignment: horizontal center; pattern: pattern solid, fore_color lime')
+                        sheet1.write(c, k, livreurs[e],style)
+                    elif  156<= occ_rues[i % len(shift_tagg), i // len(shift_tagg), zone] <= 234:
+                        style = xlwt.easyxf(
+                            'font : color black; alignment: horizontal center; pattern: pattern solid, fore_color yellow')
+                        sheet1.write(c, k, livreurs[e],style)
+                    elif  234<= occ_rues[i % len(shift_tagg), i // len(shift_tagg), zone] <= 312:
+                        style = xlwt.easyxf(
+                            'font : color black; alignment: horizontal center; pattern: pattern solid, fore_color orange')
+                        sheet1.write(c, k, livreurs[e],style)
+                    elif  312<= occ_rues[i % len(shift_tagg), i // len(shift_tagg), zone] <= 1000:
+                        style = xlwt.easyxf(
+                            'font : color black; alignment: horizontal center; pattern: pattern solid, fore_color red')
+                        sheet1.write(c, k, livreurs[e],style)
+                    sum+=occ_rues[i % len(shift_tagg), i // len(shift_tagg), zone]
 
-                    sheet1.write(c, k, livreurs[e])
 
 
             k += 1
 
 
         c += 1
+
+    # -----------------------------------------------------------
+    sheet1.write(c, k, sum)
 
     return wb
 
@@ -214,7 +250,7 @@ def main():
     df_convention = df_convention[(df_convention['Date et heure de comptage'] <= fin)]
     tx_occup_convention = np.array(df_convention["Taux d'occupation"])
     debit_convention = np.array(df_convention['Débit horaire'])
-    print(len(tx_occup_convention))
+
 
     #print(tx_occup_convention)
     occ_rues = {}
@@ -222,19 +258,20 @@ def main():
         for d in range (num_weeks*7):
             for s in range(len(tagg_heure)):
                 if zone == "Avenue des Champs Elysées":
-                    occ_rues[s, d, zone] = int((tx_occup_ACE[d*len(tagg_heure)+s]/debit_ACE[d*len(tagg_heure)+s])*1000)
+                    occ_rues[s, d, zone] = int(tx_occup_ACE[d*len(tagg_heure)+s]*10)
                 if zone == "Sts-Pères":
-                    occ_rues[s, d, zone] = int((tx_occup_Sts[d*len(tagg_heure)+s]/debit_Sts[d*len(tagg_heure)+s])*1000)
+                    occ_rues[s, d, zone] = int(tx_occup_Sts[d*len(tagg_heure)+s]*10)
                 if zone == "Convention":
-                    occ_rues[s, d, zone] = int((tx_occup_convention[d * len(tagg_heure) + s] / debit_convention[d * len(tagg_heure) + s])*1000)
+                    occ_rues[s, d, zone] = int(tx_occup_convention[d * len(tagg_heure) + s]*10)
 
     waiting_time = 60
-
+    print("max:{}".format(max(occ_rues.values())))
+    print("min:{}".format(min(occ_rues.values())))
     solver, work, status = solve_shift_scheduling(livreurs, Creneaux, num_weeks, zones, max_shift_per_day, min_shift_per_day, contrainte_tp, daily_cover_demands,occ_rues, waiting_time,shift_hours)
 
 
     all_shifts=num_weeks * len(tagg_heure) * 7
-    wb = print_solution_blockwise_del(zones, all_shifts, livreurs, solver, work, tagg_heure)
+    wb = print_solution_blockwise_del(zones, all_shifts, livreurs, solver, work, tagg_heure, occ_rues)
     wb.save('planning_test.xls')
 
 main()
