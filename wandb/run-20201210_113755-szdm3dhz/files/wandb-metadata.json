@@ -1,0 +1,26 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.7",
+    "heartbeatAt": "2020-12-10T10:38:00.921972",
+    "startedAt": "2020-12-10T10:37:55.393243",
+    "docker": null,
+    "gpu": "GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "-f",
+        "C:\\Users\\julien pinede\\AppData\\Roaming\\jupyter\\runtime\\kernel-b3525179-6804-4c63-a8f9-3ba4177f1904.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@gitlab.com:matthias.lesage/bcg-gamma-project.git",
+        "commit": "0c6a7d018cce27fd645dc8283712bd0027c65acc"
+    },
+    "email": "julien.pinede@student-cs.fr",
+    "root": "D:/Kaggle/Datathlon BCG",
+    "host": "LAPTOP-UE4O0D43",
+    "username": "julien pinede",
+    "executable": "d:\\anaconda\\envs\\ml_mvp_1\\python.exe"
+}

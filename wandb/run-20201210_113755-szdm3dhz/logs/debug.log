@@ -1,0 +1,11 @@
+2020-12-10 11:37:55,397 INFO    MainThread:66148 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-10 11:37:55,397 INFO    MainThread:66148 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2020-12-10 11:37:55,397 INFO    MainThread:66148 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-10 11:37:55,397 INFO    MainThread:66148 [wandb_setup.py:_flush():70] setting login settings: {'api_key': '2bb603ea934b46397631922b01985038e75d4e38'}
+2020-12-10 11:37:55,398 INFO    MainThread:66148 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001D4A12E6A88>
+2020-12-10 11:37:55,398 INFO    MainThread:66148 [wandb_init.py:_log_setup():303] Logging user logs to D:\Kaggle\Datathlon BCG\wandb\run-20201210_113755-szdm3dhz\logs\debug.log
+2020-12-10 11:37:55,399 INFO    MainThread:66148 [wandb_init.py:_log_setup():304] Logging internal logs to D:\Kaggle\Datathlon BCG\wandb\run-20201210_113755-szdm3dhz\logs\debug-internal.log
+2020-12-10 11:38:01,221 INFO    MainThread:66148 [wandb_run.py:_console_start():1237] atexit reg
+2020-12-10 11:38:01,222 INFO    MainThread:66148 [wandb_run.py:_redirect():1104] redirect: SettingsConsole.WRAP
+2020-12-10 11:38:01,222 INFO    MainThread:66148 [wandb_run.py:_redirect():1135] Wrapping output streams.
+2020-12-10 11:38:01,222 INFO    MainThread:66148 [wandb_run.py:_redirect():1151] Redirects installed.
