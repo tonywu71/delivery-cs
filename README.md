@@ -1,6 +1,6 @@
 # Présentation
 
-Ce Datathon est une collaboration entre BCG Gamma et CentraleSupélec. Sous une forme accélérée, il est une opportunité de découvrir un projet de stratégie avec une dimension DataScience.
+Ce Datathon résulte d'une collaboration entre BCG Gamma et CentraleSupélec. Sous une forme accélérée, il est une opportunité de découvrir un projet de stratégie avec une dimension DataScience.
 
 
 
