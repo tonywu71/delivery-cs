@@ -1,6 +1,5 @@
 # Présentation
-
-Ce Datathon résulte d'une collaboration entre BCG Gamma et CentraleSupélec. Sous une forme accélérée, il est une opportunité de découvrir un projet de stratégie avec une dimension DataScience.
+Projet d'optimisation de la logistique d'une entreprise de livraison à Paris dans le cadre du Datathon organisé par BCG Gamma avec CentraleSupélec.
 
 
 
